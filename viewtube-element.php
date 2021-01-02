@@ -1,6 +1,6 @@
 <?php
 /**
-* Plugin Name: viewtube Element
+* Plugin Name: ViewTube Element
 * Plugin URI: https://github.com/ThemeBing/viewtube-element
 * Description: After install the viewtube WordPress Theme, you must need to install this "viewtube Element" first to get all functions of viewtube WP Theme.
 * Version: 1.0.0
