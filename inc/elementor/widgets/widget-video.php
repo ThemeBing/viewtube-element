@@ -48,6 +48,21 @@ class viewtube_Widget_Video extends Widget_Base {
       );
 
       $this->add_control(
+         'category',
+         [
+            'label' => esc_html__( 'Category', 'viewtube' ),
+            'type' => Controls_Manager::SELECT, 
+            'title' => esc_html__( 'Select a category', 'viewtube' ),
+            'multiple' => true,
+            'options' => viewtube_get_terms_dropdown_array([
+               'taxonomy' => 'video_category',
+               'hide_empty' => false,
+               'parent' => 0
+            ]),
+         ]
+      );
+
+      $this->add_control(
          'ppp',
          [
             'label' => __( 'Number of Items', 'viewtube' ),
@@ -93,11 +108,19 @@ class viewtube_Widget_Video extends Widget_Base {
 
       <div class="row justify-content-center">
          <?php
+
          $video = new \WP_Query( array( 
             'post_type' => 'video',
             'posts_per_page' => $settings['ppp']['size'],
             'ignore_sticky_posts' => true,
             'order' => $settings['order'],
+            'tax_query' => array(
+               array(
+                  'taxonomy'  => 'video_category',
+                  'field'     => 'id', 
+                  'terms'     =>  $settings['category']
+               )
+            )
          ));
          /* Start the Loop */
          while ( $video->have_posts() ) : $video->the_post();

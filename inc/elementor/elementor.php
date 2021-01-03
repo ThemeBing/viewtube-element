@@ -29,41 +29,6 @@ function viewtube_get_terms_dropdown_array($args = [], $key = 'term_id', $value 
   return $options;
 }
 
-// Elementor Templates List 
-function viewtube_get_elementor_template() {
-    $templates = \Elementor\Plugin::instance()->templates_manager->get_source( 'local' )->get_items();
-    $types = array();
-    if ( empty( $templates ) ) {
-        $template_lists = [ '0' => __( 'Templates not found.', 'viewtube' ) ];
-    } else {
-        $template_lists = [ '0' => __( 'Select Template', 'viewtube' ) ];
-        foreach ( $templates as $template ) {
-            $template_lists[ $template['template_id'] ] = $template['title'] . ' (' . $template['type'] . ')';
-        }
-    }
-    return $template_lists;
-}
-
-// get terms dropdown
-function viewtube_attribute_taxonomies_dropdown_array(){
-  $options = [];
-  $terms = wc_get_attribute_taxonomies();
-
-  if (is_wp_error($terms)) {
-    return [];
-  }
-
-  if ( $terms ) {
-      foreach ((array) $terms as $tax) {
-      if (taxonomy_exists(wc_attribute_taxonomy_name($tax->attribute_name))) {
-          $options[$tax->attribute_name] = $tax->attribute_label;
-      };
-    };
-  };
-
-  return $options;
-}
-
 function viewtube_add_elementor_widget_categories( $elements_manager ) {
 
 	$elements_manager->add_category(
