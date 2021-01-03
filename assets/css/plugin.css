@@ -143,8 +143,18 @@
 /*--------------------------------------------------------------
 ## Banner
 --------------------------------------------------------------*/
-
-
+.banner {
+    padding: 150px 50px;
+}
+.banner .banner-content h1 {
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+.banner .banner-content p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+}
 /*--------------------------------------------------------------
 ## InfoBox
 --------------------------------------------------------------*/
@@ -439,9 +449,7 @@
 }
 
 @media screen and (max-width: 1230px) {
-    .banner-icons {
-        opacity: 0.1;
-    
+
 }
 
 @media (max-width: 991px) {

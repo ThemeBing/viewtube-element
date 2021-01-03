@@ -19,8 +19,8 @@ if ( ! function_exists('viewtube_custom_post_type') ) {
             ),
             'description'    => __( 'Description.', 'viewtube' ),
             'menu_icon'      => 'dashicons-youtube',
-            'public'         => true,
-            'has_archive'   => false,
+            'public' => true,
+            'has_archive' => true,
             'rewrite'        => array( 'slug' => 'video' ),
             'supports'       => array( 'title','editor','thumbnail' )
         ));
