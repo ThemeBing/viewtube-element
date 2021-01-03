@@ -102,16 +102,9 @@ class viewtube_ElementorCustomElement {
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-ad.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-ajax-search.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-banner.php');
-         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-banner-2.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-blog.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-button.php');
-         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-counter.php');
-         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-products.php');
-         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-iconbox.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-infobox.php');
-         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-megamenu.php');
-         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-product-categories.php');
-         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-team.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-title.php');
       }
 	}

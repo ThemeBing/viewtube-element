@@ -144,208 +144,6 @@
 ## Banner
 --------------------------------------------------------------*/
 
-.banner {
-    padding: 100px 0 150px;
-}
-
-.banner-content h1 {
-    font-size: 72px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.banner-content p {
-    font-size: 22px;
-    line-height: 34px;
-    margin-bottom: 0;
-    font-weight: 300;
-}
-
-.banner-content .viewtube-btn {
-    padding: 15px 50px;
-}
-
-.banner-icon {
-    transition: 0.3s;
-    position: absolute;
-    float: left;
-    width: 90px;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.banner-icon:hover {
-    transition: 0.3s;
-    transform: scale(1.3);
-}
-
-.banner-icon:nth-child(1) {
-    top: -230px;
-    right: 350px;
-    animation: fadeIn ease 4s;
-}
-
-.banner-icon:nth-child(2) {
-    top: -185px;
-    right: 0;
-    animation: fadeIn ease 2s;
-}
-
-.banner-icon:nth-child(3) {
-    top: -80px;
-    right: 0;
-    animation: fadeIn ease 5s;
-}
-
-.banner-icon:nth-child(4) {
-    top: 30px;
-    right: 0;
-    animation: fadeIn ease 7s;
-}
-
-.banner-icon:nth-child(5) {
-    top: 150px;
-    right: 0;
-    animation: fadeIn ease 2s;
-}
-
-.banner-icon:nth-child(6) {
-    top: -230px;
-    right: 110px;
-    animation: fadeIn ease 3s;
-}
-
-.banner-icon:nth-child(7) {
-    top: -120px;
-    right: 110px;
-    animation: fadeIn ease 8s;
-}
-
-.banner-icon:nth-child(8) {
-    top: -10px;
-    right: 110px;
-    animation: fadeIn ease 3s;
-}
-
-.banner-icon:nth-child(9) {
-    top: 110px;
-    right: 110px;
-    animation: fadeIn ease 4s;
-}
-
-.banner-icon:nth-child(10) {
-    top: 225px;
-    right: 350px;
-    animation: fadeIn ease 7s;
-}
-
-.banner-icon:nth-child(11) {
-    top: -180px;
-    right: 230px;
-    animation: fadeIn ease 2s;
-}
-
-.banner-icon:nth-child(12) {
-    top: -62px;
-    right: 230px;
-    animation: fadeIn ease 6s;
-}
-
-.banner-icon:nth-child(13) {
-    top: 50px;
-    right: 230px;
-    animation: fadeIn ease 2s;
-}
-
-.banner-icon:nth-child(14) {
-    top: 160px;
-    right: 230px;
-    animation: fadeIn ease 8s;
-}
-
-.banner-icon:nth-child(15) {
-    top: -117px;
-    right: 350px;
-    animation: fadeIn ease 3s;
-}
-
-.banner-icon:nth-child(16) {
-    top: -5px;
-    right: 350px;
-    animation: fadeIn ease 5s;
-}
-
-.banner-icon:nth-child(17) {
-    top: 110px;
-    right: 350px;
-    animation: fadeIn ease 2s;
-}
-
-.banner-icon:nth-child(18) {
-    top: -40px;
-    right: 470px;
-    animation: fadeIn ease 9s;
-}
-
-.banner-icon:nth-child(19) {
-    top: 80px;
-    right: 470px;
-    animation: fadeIn ease 7s;
-}
-
-.banner-icon:nth-child(20) {
-    top: -160px;
-    right: 470px;
-    animation: fadeIn ease 3s;
-}
-
-.banner-icons-2 {
-    padding: 15px;
-    border-radius: 20px;
-    overflow: hidden;
-    -webkit-box-shadow: 0px 8px 32px 0px rgb(176 176 176 / 30%);
-    box-shadow: 0px 8px 32px 0px rgb(176 176 176 / 30%);
-}
-
-.banner-icon-2 {
-    transition: 0.3s;
-    margin: 20px;
-    float: left;
-    width: 120px;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.banner-icon-2:hover {
-    transition: 0.3s;
-    transform: scale(1.3);
-}
-
-/*--------------------------------------------------------------
-## Counter
---------------------------------------------------------------*/
-.counter-item .counter-icon i {
-    font-size: 56px;
-    text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    margin-bottom: 15px;
-}
-
-.counter-item h2 {
-    font-size: 52px;
-}
-
-.counter-item span {
-    font-size: 20px;
-}
 
 /*--------------------------------------------------------------
 ## InfoBox
@@ -446,64 +244,6 @@
 }
 
 /*--------------------------------------------------------------
-## Partner
---------------------------------------------------------------*/
-
-.partner img {
-    padding: 0 15px;
-    -webkit-transition: 0.6s;
-    -o-transition: 0.6s;
-    transition: 0.6s;
-}
-
-.partner img:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-/*--------------------------------------------------------------
-## Category item
---------------------------------------------------------------*/
-.category-item {
-    overflow: hidden;
-    border-radius: 20px;
-    display: block;
-    background: #fff;
-    border: 1px solid #f1f1f1;
-}
-
-.category-item:hover h5 {
-    color: #fff;
-}
-
-.category-item-img {
-    display: block;
-    align-items: center;
-    margin: 0 auto;
-    padding: 45px;
-}
-
-.category-item h5 {
-    background: #efefef;
-    padding: 20px 0;
-    margin-bottom: 0;
-}
-
-.category-item-2 a {
-    display: flex;
-    align-items: flex-end;
-    background: #fff;
-    color: #444;
-    padding: 10px;
-}
-
-.category-item-2 a img {
-    width: 25px;
-    margin-right: 15px;
-}
-
-/*--------------------------------------------------------------
 ## Accordion
 --------------------------------------------------------------*/
 .viewtube-accordion-item {}
@@ -541,68 +281,6 @@
     -o-transition: .2s;
     transition: .2s;
     border-top: 1px solid #ddd;
-}
-
-/*--------------------------------------------------------------
-## Team
---------------------------------------------------------------*/
-.viewtube-team {
-    text-align: center;
-}
-
-.viewtube-team img {
-    width: 100%;
-}
-
-.viewtube-team-content {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 15px 20px 20px;
-}
-
-.viewtube-team-image {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    overflow: hidden;
-    position: relative;
-}
-
-.viewtube-team-content h4,
-.viewtube-team-content span {
-    color: #fff;
-}
-
-.viewtube-team-social {
-    padding: 35px 30px 15px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin-bottom: 0;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 100%;
-}
-
-.viewtube-team-social:after {
-    position: absolute;
-    content: '';
-    background: #fff;
-    width: 70%;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
-
-.viewtube-team-social li a {
-    font-size: 20px;
-    color: #fff;
-    margin: 0 7px;
-}
-
-.viewtube-team-social .list-inline-item:not(:last-child) {
-    margin-right: 0;
 }
 
 /*--------------------------------------------------------------
@@ -757,79 +435,26 @@
 # Responsive
 --------------------------------------------------------------*/
 @media (max-width: 1200px) {
-    .banner h1 {
-        font-size: 52px;
-    }
-
-    .partner {
-        margin-bottom: 50px;
-    }
-
-    .partner {
-        text-align: center;
-    }
+    
 }
 
 @media screen and (max-width: 1230px) {
     .banner-icons {
         opacity: 0.1;
-    }
+    
 }
 
 @media (max-width: 991px) {
-    .banner {
-        height: unset;
-        padding: 100px 0;
-    }
-
-    .banner2 .viewtube-product-search-form {
-        max-width: 80%;
-    }
-
-    .banner-icons {
-        top: 100px;
-    }
-
-    .select-items div,
-    .select-selected {
-        margin-bottom: 15px;
-    }
+    
 }
 
 @media (max-width: 768px) {
-    .banner {
-        text-align: center;
-    }
-
-    .banner .viewtube-product-search-form {
-        width: 100%;
-        float: none;
-    }
-
-    blockquote p {
-        font-size: 22px;
-        line-height: 30px;
-    }
-
-    .products-filter-area .woocommerce-ordering {
-        margin-top: 20px;
-    }
-
-    .products-filter-area .woocommerce-ordering,
-    .products-filter-area p {
-        text-align: center !important;
-    }
+    
 
 }
 
 
 @media (max-width: 540px) {
-    .partner img {
-        width: 200px;
-    }
-
-    .banner h1 {
-        font-size: 42px;
-    }
+    
 
 }
