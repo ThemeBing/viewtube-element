@@ -70,7 +70,6 @@ class viewtube_ElementorCustomElement {
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-blog.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-button.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-infobox.php');
-         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-title.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-video.php');
       }
 	}

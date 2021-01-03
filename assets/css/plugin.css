@@ -109,36 +109,6 @@
     }
 }
 
-/*--------------------------------------------------------------
-## Section Title
---------------------------------------------------------------*/
-.section-title h1 {
-    font-weight: bold;
-}
-
-.section-title p {
-    margin-top: 20px
-}
-
-.section-title-bar {
-    margin-bottom: 20px;
-}
-
-.section-title-bar h2 {
-    font-size: 26px;
-
-}
-
-.section-title-bar a {
-    padding: 3px 20px;
-    border-radius: 20px;
-    float: right;
-    color: #fff;
-}
-
-.section-title-bar a:hover {
-    color: #fff;
-}
 
 /*--------------------------------------------------------------
 ## Banner
