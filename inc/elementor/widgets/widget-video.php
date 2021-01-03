@@ -91,66 +91,50 @@ class viewtube_Widget_Video extends Widget_Base {
       $this->add_inline_editing_attributes( 'ppp', 'basic' );
       ?>
 
-      <div class="container">
-         <?php if ($settings['title_switch'] == true){ ?>
-            <div class="row section-title-bar">
-               <div class="col-6">
-                  <?php if ($settings['title_switch'] == true){ ?>
-                     <h2><?php echo esc_html( $settings['section_title'] ) ?></h2>
-                  <?php } ?>
+      <div class="row justify-content-center">
+         <?php
+         $video = new \WP_Query( array( 
+            'post_type' => 'video',
+            'posts_per_page' => $settings['ppp']['size'],
+            'ignore_sticky_posts' => true,
+            'order' => $settings['order'],
+         ));
+         /* Start the Loop */
+         while ( $video->have_posts() ) : $video->the_post();
+         ?>
+         <!-- video -->
+         <div class="<?php echo esc_attr($settings['columns']) ?> col-md-6">
+            <div class="video-item-card">
+               <?php if (has_post_thumbnail()): ?>
+               <div class="video-thumb">
+                  <?php get_template_part( 'template-parts/content', 'video' ); ?>
                </div>
-               <div class="col-6">
-                  <?php if ($settings['readmore_switch'] == true){ ?>
-                     <a href="<?php echo esc_url( $settings['readmore_url'] ) ?>"><?php echo esc_html( $settings['readmore_text'] ) ?></a>
-                  <?php } ?>
-               </div>
-            </div>
-         <?php } ?>
-         <div class="row justify-content-center">
-            <?php
-            $video = new \WP_Query( array( 
-               'post_type' => 'video',
-               'posts_per_page' => $settings['ppp']['size'],
-               'ignore_sticky_posts' => true,
-               'order' => $settings['order'],
-            ));
-            /* Start the Loop */
-            while ( $video->have_posts() ) : $video->the_post();
-            ?>
-            <!-- video -->
-            <div class="<?php echo esc_attr($settings['columns']) ?> col-md-6">
-               <div class="video-item">
-                  <?php if (has_post_thumbnail()): ?>
-                  <div class="video-thumb">
-                     <a href="<?php the_permalink() ?>">
-                        <?php the_post_thumbnail( 'viewtube-600x399' ) ?>
+               <?php endif ?> 
+               <div class="video-content">
+                  <div class="d-flex">
+                     <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>" class="avatar">
+                        <img src="<?php echo esc_url( get_avatar_url( get_the_author_meta( 'ID' ) ) ); ?>" alt="<?php the_author(); ?>">
                      </a>
-                  </div>
-                  <?php endif ?> 
-                  <div class="video-content">
-                     <div class="video-meta">
-                        <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>">
-                        <img src="<?php echo esc_url( get_avatar_url( get_the_author_meta( 'ID' ) ) ); ?>" alt="<?php the_author(); ?>"></a>
-                        <span class="pr-10"> - <?php the_author(); ?></span>
-                        |
-                        <span class="pl-10">
-                           <?php $categories = get_the_category();
-                           if ( ! empty( $categories ) ) {
-                               echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
-                           }?>
-                        </span>
+                     <div>
+                        <a href="<?php the_permalink() ?>">
+                           <h5><?php echo mb_strimwidth( get_the_title(), 0, 60, '..' );?></h5>
+                        </a>
+                        <a class="author" href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>">
+                           <?php the_author(); ?>
+                        </a>
+                        <?php $categories = get_the_category();
+                        if ( ! empty( $categories ) ) {
+                            echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+                        }?>
                      </div>
-                     <h4><a href="<?php the_permalink() ?>"><?php echo mb_strimwidth( get_the_title(), 0, 27, '..' );?></a></h4>
-                     <p><?php echo wp_trim_words( get_the_content(), 12, '...' );?></p>
-                     <a class="viewtube-btn bordered " href="<?php the_permalink() ?>"><?php echo esc_html( 'Read More','viewtube' ) ?></a>
                   </div>
                </div>
             </div>
-            <?php 
-            endwhile; 
-            wp_reset_postdata();
-            ?>
          </div>
+         <?php 
+         endwhile; 
+         wp_reset_postdata();
+         ?>
       </div>
       <?php
    }
