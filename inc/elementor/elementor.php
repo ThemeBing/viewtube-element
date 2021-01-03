@@ -97,7 +97,7 @@ class viewtube_ElementorCustomElement {
    public function widgets_registered() {
  
     // We check if the Elementor plugin has been installed / activated.
-    if(defined('ELEMENTOR_PATH') && class_exists('Elementor\Widget_Base')){      
+    if(defined('ELEMENTOR_PATH') && class_exists('Elementor\Widget_Base')){
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-accordion.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-ad.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-ajax-search.php');
@@ -106,6 +106,7 @@ class viewtube_ElementorCustomElement {
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-button.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-infobox.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-title.php');
+         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-video.php');
       }
 	}
 
