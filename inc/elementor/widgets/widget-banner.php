@@ -76,7 +76,7 @@ class viewtube_Widget_Banner extends Widget_Base {
          [
             'label' => __( 'Button text', 'viewtube' ),
             'type' => \Elementor\Controls_Manager::TEXT,
-            'default' => __('Discover Apps','viewtube' )
+            'default' => __('Watch Video','viewtube' )
          ]
       );
             
