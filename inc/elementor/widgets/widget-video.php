@@ -47,6 +47,48 @@ class viewtube_Widget_Video extends Widget_Base {
          ]
       );
 
+        $this->add_control(
+         'slide',
+         [
+            'label' => __( 'Slide', 'viewtube' ),
+            'type' => \Elementor\Controls_Manager::SWITCHER,
+            'label_on' => __( 'On', 'viewtube' ),
+            'label_off' => __( 'Off', 'viewtube' ),
+            'return_value' => 'true',
+            'default' => true,
+         ]
+      );
+
+      $this->add_control(
+         'slidestoshow',
+         [
+            'label' => __('Slides To Show', 'viewtube' ),
+            'type' => Controls_Manager::NUMBER,
+            'min' => 1,
+            'max' => 100,
+            'step' => 1,
+            'default' => 4,
+            'condition' => [
+               'slide' => 'true'
+            ]
+         ]
+      );
+
+      $this->add_control(
+         'slidestoscroll',
+         [
+            'label' => __( 'Slides To Scroll', 'viewtube' ),
+            'type' => Controls_Manager::NUMBER,
+            'min' => 1,
+            'max' => 10,
+            'step' => 1,
+            'default' => 4,
+            'condition' => [
+               'slide' => 'true'
+            ]
+         ]
+      );
+
       $this->add_control(
          'category',
          [
@@ -106,7 +148,7 @@ class viewtube_Widget_Video extends Widget_Base {
       $this->add_inline_editing_attributes( 'ppp', 'basic' );
       ?>
 
-      <div class="row justify-content-center">
+      <div class="row justify-content-center <?php if($settings['slide']){echo'video-items';} ?>" data-slick='{"slidesToShow": <?php echo esc_attr( $settings['slidestoshow'] ) ?>, "slidesToScroll": <?php echo esc_attr( $settings['slidestoscroll'] ) ?>}'>
          <?php
 
          $video = new \WP_Query( array( 

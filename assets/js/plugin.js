@@ -34,7 +34,7 @@
     }
 
     // product items
-    $('.product-items').slick({
+    $('.video-items').slick({
         arrows: true,
         infinite: true,
         rtl: rtl_slick(),
