@@ -114,17 +114,25 @@
 ## Banner
 --------------------------------------------------------------*/
 .banner {
+    border-radius: 15px;
     padding: 150px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
 .banner .banner-content h1 {
+    font-weight: bold;
     font-size: 55px;
     margin-bottom: 50px;
 }
+
 .banner .banner-content p {
     font-size: 24px;
     font-weight: 300;
     line-height: 40px;
 }
+
 /*--------------------------------------------------------------
 ## InfoBox
 --------------------------------------------------------------*/
@@ -414,25 +422,13 @@
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
-@media (max-width: 1200px) {
-    
-}
+@media (max-width: 1200px) {}
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1230px) {}
 
-}
+@media (max-width: 991px) {}
 
-@media (max-width: 991px) {
-    
-}
-
-@media (max-width: 768px) {
-    
-
-}
+@media (max-width: 768px) {}
 
 
-@media (max-width: 540px) {
-    
-
-}
+@media (max-width: 540px) {}

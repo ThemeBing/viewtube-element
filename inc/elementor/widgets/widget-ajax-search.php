@@ -44,7 +44,7 @@ class viewtube_Widget_search extends Widget_Base {
       <form class="ajax-search-form search-widget" action="<?php echo esc_url(home_url( '/' )); ?>">
           <input type="text" name="s" id="keyword"  class="keyword" placeholder="<?php echo esc_attr_x( 'Search', 'placeholder', 'viewtube' ); ?>">
           <button type="submit"><i class="fa fa-search"></i></button>
-          <input type="hidden" name="post_type" value="product" />
+          <input type="hidden" name="post_type" value="video" />
       </form>
       <div class="datafetch"></div>
 

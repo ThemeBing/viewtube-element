@@ -34,6 +34,17 @@
     }
 
     // product items
+    $('.banners').slick({
+        arrows: true,
+        infinite: true,
+        rtl: rtl_slick(),
+        "slidesToShow": 1,
+        "slidesToScroll": 1,
+        nextArrow: '<i class="fas fa-chevron-right"></i>',
+        prevArrow: '<i class="fas fa-chevron-left"></i>'
+    });
+
+    // product items
     $('.video-items').slick({
         arrows: true,
         infinite: true,
@@ -74,12 +85,26 @@
     // Elementor front-end
     $(window).on('elementor/frontend/init', function() {
 
-        elementorFrontend.hooks.addAction('frontend/element_ready/products_carousel.default', function($scope, $) {
+        elementorFrontend.hooks.addAction('frontend/element_ready/banner.default', function($scope, $) {
+
+            $scope.find('.banners').not('.slick-initialized').slick({
+                arrows: true,
+                infinite: true,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                nextArrow: '<i class="fas fa-chevron-right"></i>',
+                prevArrow: '<i class="fas fa-chevron-left"></i>'
+            });
+
+        });
+
+        elementorFrontend.hooks.addAction('frontend/element_ready/video.default', function($scope, $) {
 
             $scope.find('.product-items').not('.slick-initialized').slick({
                 arrows: true,
                 infinite: true,
-                rtl: rtl_slick(),
+                "slidesToShow": 4,
+                "slidesToScroll": 4,
                 nextArrow: '<i class="fas fa-chevron-right"></i>',
                 prevArrow: '<i class="fas fa-chevron-left"></i>'
             });

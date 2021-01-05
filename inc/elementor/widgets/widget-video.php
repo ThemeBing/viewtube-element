@@ -172,7 +172,7 @@ class viewtube_Widget_Video extends Widget_Base {
             <div class="video-item-card">
                <?php if (has_post_thumbnail()): ?>
                <div class="video-thumb">
-                  <?php get_template_part( 'template-parts/content', 'video' ); ?>
+                  <?php video_player('viewtube-player'); ?>
                </div>
                <?php endif ?> 
                <div class="video-content">
