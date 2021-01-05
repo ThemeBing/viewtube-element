@@ -21,6 +21,8 @@ if ( ! function_exists('viewtube_custom_post_type') ) {
             'menu_icon'      => 'dashicons-youtube',
             'public' => true,
             'has_archive' => true,
+            'show_ui' => true,
+            'show_in_menu' => true,
             'rewrite'        => array( 'slug' => 'video' ),
             'supports'       => array( 'title','editor','thumbnail' )
         ));
