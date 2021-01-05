@@ -97,7 +97,7 @@ class viewtube_Widget_ad_banner extends Widget_Base {
          [
             'label' => __( 'Title', 'viewtube' ),
             'type' => \Elementor\Controls_Manager::TEXT,
-            'default' => __( 'Body Parts', 'viewtube' )
+            'default' => __( 'Award show', 'viewtube' )
          ]
       );
 
@@ -106,7 +106,7 @@ class viewtube_Widget_ad_banner extends Widget_Base {
          [
             'label' => __( 'Description', 'viewtube' ),
             'type' => \Elementor\Controls_Manager::TEXTAREA,
-            'default' => __( 'For Any Vehicle', 'viewtube' )
+            'default' => __( 'Watch in premium', 'viewtube' )
          ]
       );
 
@@ -161,7 +161,7 @@ class viewtube_Widget_ad_banner extends Widget_Base {
          [
             'label' => __( 'Button', 'viewtube' ),
             'type' => \Elementor\Controls_Manager::TEXT,
-            'default' => __( 'Shop Now', 'viewtube' )
+            'default' => __( 'Watch Now', 'viewtube' )
          ]
       );
 
