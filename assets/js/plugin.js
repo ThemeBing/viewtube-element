@@ -100,7 +100,7 @@
 
         elementorFrontend.hooks.addAction('frontend/element_ready/video.default', function($scope, $) {
 
-            $scope.find('.product-items').not('.slick-initialized').slick({
+            $scope.find('.video-items').not('.slick-initialized').slick({
                 arrows: true,
                 infinite: true,
                 "slidesToShow": 4,
