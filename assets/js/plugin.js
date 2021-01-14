@@ -16,11 +16,11 @@
         });
 
         $('.mega-menu-content').on('mouseenter', function(event) {
-                $(this).closest('.menu-item').addClass('open');
+            $(this).closest('.menu-item').addClass('open');
         });
 
         $('.mega-menu-content').on('mouseleave', function(event) {
-                $(this).closest('.menu-item').removeClass('open');
+            $(this).closest('.menu-item').removeClass('open');
         });
     });
 
@@ -37,6 +37,11 @@
     $('.banners').slick({
         arrows: true,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+        speed: 2000,
+        fade: true,
         rtl: rtl_slick(),
         "slidesToShow": 1,
         "slidesToScroll": 1,
