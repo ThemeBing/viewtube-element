@@ -11,11 +11,11 @@ if( !class_exists('viewtube_Recent_Post') ){
 		function __construct(){
 
 			$widget_options = array(
-				'description' 					=> esc_html__('Source Code Blog Recent Post Here', 'viewtube'), 
+				'description' 					=> esc_html__('ViewTube Blog Recent Post Here', 'viewtube'), 
 				'customize_selective_refresh' 	=> true,
 			);
 
-			parent:: __construct('viewtube_Recent_Post', esc_html__( 'Source Code : Recent Post', 'viewtube'), $widget_options );
+			parent:: __construct('viewtube_Recent_Post', esc_html__( 'ViewTube : Recent Post', 'viewtube'), $widget_options );
 
 		}
 		/**
