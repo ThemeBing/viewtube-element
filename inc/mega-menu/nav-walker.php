@@ -3,8 +3,8 @@
 /*
  * Add custom fields to menu item
  */
-add_action( 'wp_nav_menu_item_custom_fields', 'kia_custom_fields', 10, 2 );
-function kia_custom_fields( $item_id, $item ) {
+add_action( 'wp_nav_menu_item_custom_fields', 'viewtube_font_awesome_icon_custom_field', 10, 2 );
+function viewtube_font_awesome_icon_custom_field( $item_id, $item ) {
 
     wp_nonce_field( 'custom_menu_meta_nonce', '_custom_menu_meta_nonce_name' );
     $custom_menu_meta = get_post_meta( $item_id, '_custom_menu_meta', true );
@@ -21,8 +21,8 @@ function kia_custom_fields( $item_id, $item ) {
 /*
  * Saves new field navmenu
  */
-add_action('wp_update_nav_menu_item', 'custom_nav_update',10, 3);
-function custom_nav_update($menu_id, $menu_item_db_id, $args ) {
+add_action('wp_update_nav_menu_item', 'viewtube_font_awesome_icon_custom_nav_update',10, 3);
+function viewtube_font_awesome_icon_custom_nav_update($menu_id, $menu_item_db_id, $args ) {
     if ( is_array($_REQUEST['menu-item-icon']) ) {
         $custom_value = $_REQUEST['menu-item-icon'][$menu_item_db_id];
         update_post_meta( $menu_item_db_id, '_menu_item_icon', $custom_value );
@@ -32,8 +32,8 @@ function custom_nav_update($menu_id, $menu_item_db_id, $args ) {
 /*
  * Add value of new field to Navmenu ( Dashboard )
  */
-add_filter( 'wp_setup_nav_menu_item','custom_nav_item' );
-function custom_nav_item($menu_item) {
+add_filter( 'wp_setup_nav_menu_item','viewtube_font_awesome_icon_custom_nav_item' );
+function viewtube_font_awesome_icon_custom_nav_item($menu_item) {
     $menu_item->font_awesome_icon = get_post_meta( $menu_item->ID, '_menu_item_icon', true );
     return $menu_item;
 }
@@ -41,8 +41,8 @@ function custom_nav_item($menu_item) {
 /*
  * Add value to front-end of Navmenu
  */
-add_filter( 'walker_nav_menu_start_el', 'custom_walker_nav_menu_start_el', 10, 4);
-function custom_walker_nav_menu_start_el( $item_output, $item, $depth, $args ){
+add_filter( 'walker_nav_menu_start_el', 'viewtube_walker_nav_menu_start_el', 10, 4);
+function viewtube_walker_nav_menu_start_el( $item_output, $item, $depth, $args ){
 
     $item_output = '';
     if ($item->font_awesome_icon !== '') {
