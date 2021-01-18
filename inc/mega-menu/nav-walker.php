@@ -53,7 +53,7 @@ add_filter( 'walker_nav_menu_start_el', 'viewtube_walker_nav_menu_start_el', 10,
 function viewtube_walker_nav_menu_start_el( $item_output, $item, $depth, $args ){
 
     $item_output = '';
-    if ($item->font_awesome_icon !== '') {
+    if ($item->font_awesome_icon !== '0') {
         $item_output .= sprintf( '<a href="%s"><i class="%s"></i>%s</a>', $item->url, $item->font_awesome_icon, $item->title);
     } else {
         $item_output .= sprintf( '<a href="%s">%s</a>', $item->url, $item->title);
