@@ -11,7 +11,7 @@ function viewtube_font_awesome_icon_custom_field( $item_id, $item ) {
     ?>
     <p class="field-icon description description-wide">
         <label for="edit-menu-item-icon-<?php echo $item_id; ?>">
-            <?php echo esc_html__( 'Icon Field', 'viewtube' ); ?><br />
+            <?php echo esc_html__( 'Font Awesome Icon', 'viewtube' ); ?><br />
             <input type="text" id="edit-menu-item-icon-<?php echo $item_id; ?>" class="widefat code edit-menu-item-icon" name="menu-item-icon[<?php echo $item_id; ?>]" value="<?php echo esc_attr( $item->font_awesome_icon ); ?>" />
         </label>
     </p>
