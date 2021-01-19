@@ -129,29 +129,6 @@ class viewtube_Widget_Banner extends Widget_Base {
                     <a class="viewtube-btn mt-50" href="<?php echo esc_url( $banner['button_url'] ); ?>"><?php echo esc_html( $banner['button_text'] ); ?></a>
                   </div>
                 </div>
-
-                <div class="col-lg-6 my-auto">
-                  <div class="banner-icons">
-                    <?php 
-                    $products = new \WP_Query( array( 
-                      'post_type' => 'product',
-                      'posts_per_page' => 20
-                    ));
-
-                    /* Start the Loop */
-                    while ( $products->have_posts() ) : $products->the_post(); ?>
-                      <div class="banner-icon">
-                        <?php if ( has_post_thumbnail() ){ ?>
-                          <a href="<?php the_permalink() ?>">
-                            <?php the_post_thumbnail('viewtube-400-400'); ?>
-                          </a>
-                        <?php } else { ?>
-                          <a href="<?php the_permalink() ?>"><img src="<?php echo get_template_directory_uri().'/assets/images/placeholder.png' ?>" alt="<?php the_title_attribute() ?>"></a>
-                        <?php } ?>
-                      </div>
-                    <?php endwhile; wp_reset_postdata(); ?>
-                  </div>
-                </div>
               </div>
             </div>
           </section>
