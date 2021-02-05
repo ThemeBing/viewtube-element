@@ -54,9 +54,9 @@ function viewtube_walker_nav_menu_start_el( $item_output, $item, $depth, $args )
 
     $item_output = '';
     if ($item->font_awesome_icon !== '0' & $item->font_awesome_icon !== '') {
-        $item_output .= sprintf( '<a href="%s"><i class="fa-fw %s"></i>%s</a>', $item->url, $item->font_awesome_icon, $item->title);
+        $item_output .= sprintf( '<a href="%s"><i class="%s"></i><span>%s</span></a>', $item->url, $item->font_awesome_icon, $item->title);
     } else {
-        $item_output .= sprintf( '<a href="%s">%s</a>', $item->url, $item->title);
+        $item_output .= sprintf( '<a href="%s"><span>%s</span></a>', $item->url, $item->title);
     }   
 
     return $item_output;
