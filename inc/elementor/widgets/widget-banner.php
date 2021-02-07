@@ -65,6 +65,68 @@ class viewtube_Widget_Banner extends Widget_Base {
       );
 
       $banner->add_control(
+         'rating',
+         [
+            'label' => __( 'Rating', 'appnova' ),
+            'type' => Controls_Manager::SLIDER,
+            'size_units' => [ 'px', '%' ],
+              'range' => [
+                '%' => [
+                  'min' => 1,
+                  'max' => 5,
+                  'step' => 1,
+                ]
+              ],
+              'default' => [
+                'unit' => '%',
+                'size' => 5,
+              ],
+         ]
+      );
+
+      $banner->add_control(
+         'video_resolution',
+         [
+            'label' => __( 'Video resolution', 'viewtube' ),
+            'type' => \Elementor\Controls_Manager::SELECT,
+            'options' => [
+              'HD'  => __( 'HD', 'plugin-domain' ),
+              '4K' => __( '4K', 'plugin-domain' ),
+              '8K' => __( '8K', 'plugin-domain' )
+            ],
+            'default' => 'HD',
+         ]
+      );
+
+      $banner->add_control(
+         'year',
+         [
+            'label' => __( 'Year', 'viewtube' ),
+            'type' => \Elementor\Controls_Manager::TEXT,
+            'default' => __('2021','viewtube' )
+         ]
+      );
+      
+      $banner->add_control(
+         'duration',
+         [
+            'label' => __( 'Duration', 'viewtube' ),
+            'type' => \Elementor\Controls_Manager::TEXT,
+            'default' => __('2 h 20 min','viewtube' )
+         ]
+      );
+      
+      $banner->add_control(
+         'category',
+         [
+            'label' => __( 'Category', 'viewtube' ),
+            'type' => \Elementor\Controls_Manager::TEXT,
+            'default' => __('Action','viewtube' )
+         ]
+      );
+
+
+      $banner->add_control(
          'button_url',
          [
             'label' => __( 'Button url', 'viewtube' ),
@@ -125,6 +187,17 @@ class viewtube_Widget_Banner extends Widget_Base {
                     <h1 style="color: <?php echo esc_attr( $settings['text_color']) ?> ">
                       <?php echo esc_html( $banner['title'] ); ?>
                     </h1>
+                    <ul class="list-inline rating">
+                     <?php for ($i=0; $i < $banner['rating']['size']; $i++) { ?>
+                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                     <?php } ?>
+                    </ul>
+                    <ul class="list-inline meta">
+                      <li class="list-inline-item"><?php echo esc_html( $banner['category'] ); ?></li>
+                      <li class="list-inline-item"><?php echo esc_html( $banner['year'] ); ?></li>
+                      <li class="list-inline-item"><?php echo esc_html( $banner['duration'] ); ?></li>
+                      <li class="list-inline-item"><span><?php echo esc_html( $banner['video_resolution'] ); ?></span></li>
+                    </ul>
                     <p style="color: <?php echo esc_attr( $settings['text_color']) ?> "><?php echo esc_html($banner['description']); ?></p>
                     <a class="viewtube-btn mt-50" href="<?php echo esc_url( $banner['button_url'] ); ?>"><?php echo esc_html( $banner['button_text'] ); ?></a>
                   </div>
