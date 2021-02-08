@@ -20,6 +20,5 @@ include_once(dirname( __FILE__ ). '/inc/update-checker.php');
 include_once(dirname( __FILE__ ). '/inc/elementor/elementor.php');
 include_once(dirname( __FILE__ ). '/inc/mega-menu/mega-menu.php');
 include_once(dirname( __FILE__ ). '/inc/custom-posts.php');
-include_once(dirname( __FILE__ ). '/inc/meta-boxes.php');
 include_once(dirname( __FILE__ ). '/inc/social-share.php');
 include_once(dirname( __FILE__ ). '/inc/widgets/widget-recent-posts.php');
