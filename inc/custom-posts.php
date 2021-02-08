@@ -24,7 +24,7 @@ if ( ! function_exists('viewtube_custom_post_type') ) {
             'show_ui' => true,
             'show_in_menu' => true,
             'rewrite'        => array( 'slug' => 'video' ),
-            'supports'       => array( 'title','editor','thumbnail' )
+            'supports'       => array( 'title','editor','comments','thumbnail' )
         ));
 
         // Project taxonomy

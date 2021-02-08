@@ -191,6 +191,12 @@ class viewtube_Widget_Video extends Widget_Base {
                         if ( ! empty( $categories ) ) {
                             echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
                         }?>
+
+                        <div class="d-flex video-meta-bottom">     
+                           <?php echo esc_html(viewtube_get_post_views(get_the_ID())); ?>
+                           <i class="fas fa-circle ml-2 mr-2"></i>
+                           <?php echo esc_html( human_time_diff( get_the_time('U'), current_time('timestamp') ) ) . ' ago'; ?>
+                        </div>
                      </div>
                   </div>
                </div>
