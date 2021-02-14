@@ -182,7 +182,7 @@ class viewtube_Widget_Banner extends Widget_Base {
           <section class="banner" style="background: url(<?php echo esc_url( $banner['image']['url'] ) ?>);">
             <div class="container">
               <div class="row">
-                <div class="col-xl-6 col-lg-12 my-auto">
+                <div class="col-xl-7 col-lg-12 my-auto">
                   <div class="banner-content">
                     <h1 style="color: <?php echo esc_attr( $settings['text_color']) ?> ">
                       <?php echo esc_html( $banner['title'] ); ?>
