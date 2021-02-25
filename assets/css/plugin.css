@@ -162,7 +162,7 @@
 }
 
 .banner .banner-content .meta li:nth-child(4) span {
-    border: 2px solid;
+    font-weight: bold;
     text-align: center;
     padding: 2px 5px;
 }
@@ -228,6 +228,28 @@
     margin-left: 10px;
 }
 
+/*--------------------------------------------------------------
+## Countdown
+--------------------------------------------------------------*/
+.countdown-date b {
+    font-size: 30px;
+    margin: 0 2px;
+    color: #f1f1f1
+}
+
+.countdown-date span {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 10px;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+}
 /*--------------------------------------------------------------
 ## Accordion
 --------------------------------------------------------------*/
@@ -303,8 +325,8 @@
 }
 
 .video-item-card a h5 {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 22px;
     margin-bottom: 0;
 }

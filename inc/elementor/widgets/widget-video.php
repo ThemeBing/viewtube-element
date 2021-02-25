@@ -93,7 +93,7 @@ class viewtube_Widget_Video extends Widget_Base {
          'category',
          [
             'label' => esc_html__( 'Category', 'viewtube' ),
-            'type' => Controls_Manager::SELECT, 
+            'type' => Controls_Manager::SELECT2, 
             'title' => esc_html__( 'Select a category', 'viewtube' ),
             'multiple' => true,
             'options' => viewtube_get_terms_dropdown_array([
