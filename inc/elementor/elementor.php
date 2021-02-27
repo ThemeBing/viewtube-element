@@ -71,6 +71,7 @@ class viewtube_ElementorCustomElement {
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-button.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-countdown.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-infobox.php');
+         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-slideshow-gallery.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-video.php');
       }
 	}

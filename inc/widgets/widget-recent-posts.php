@@ -70,7 +70,7 @@ if( !class_exists('viewtube_Recent_Post') ){
 						<?php while($posts->have_posts()) : $posts->the_post();  ?>
 							<div class="col-4">
 								<a href="<?php the_permalink() ?>">
-						        	<?php the_post_thumbnail( 'viewtube-200-200' ); ?>
+						        	<?php the_post_thumbnail( 'viewtube-100x80' ); ?>
 						        </a>
 							</div>
 						<?php endwhile; ?>
@@ -82,7 +82,7 @@ if( !class_exists('viewtube_Recent_Post') ){
 						<?php if (has_post_thumbnail( )): ?>
 						<div class="recent-post-thumb">
 					        <a href="<?php the_permalink() ?>">
-					        	<?php the_post_thumbnail( 'viewtube-200-200' ); ?>
+					        	<?php the_post_thumbnail( 'viewtube-100x80' ); ?>
 					        </a>
 					    </div>
 						<?php endif ?>

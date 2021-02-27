@@ -116,7 +116,7 @@ class viewtube_Widget_Blog extends Widget_Base {
                   <div class="blog-meta">
                      <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>">
                      <img src="<?php echo esc_url( get_avatar_url( get_the_author_meta( 'ID' ) ) ); ?>" alt="<?php the_author(); ?>"></a>
-                     <span class="pr-10"> - <?php the_author(); ?></span>
+                     <span class="pr-10"> <?php the_author(); ?></span>
                      |
                      <span class="pl-10">
                         <?php $categories = get_the_category();
@@ -124,10 +124,13 @@ class viewtube_Widget_Blog extends Widget_Base {
                             echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
                         }?>
                      </span>
+                     |
+                     <span class="pl-10">
+                        <a href="<?php comments_link(); ?>"><?php printf( _nx( '1 Comment', '%1$s Comments', get_comments_number(), 'comments title', 'viewtube' ), number_format_i18n( get_comments_number() ) );?></a>
+                     </span>
                   </div>
                   <h4><a href="<?php the_permalink() ?>"><?php echo mb_strimwidth( get_the_title(), 0, 27, '..' );?></a></h4>
                   <p><?php echo wp_trim_words( get_the_content(), 12, '...' );?></p>
-                  <a class="viewtube-btn bordered " href="<?php the_permalink() ?>"><?php echo esc_html( 'Read More','viewtube' ) ?></a>
                </div>
             </div>
          </div>
