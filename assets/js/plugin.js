@@ -95,7 +95,7 @@
         prevArrow: '<i class="fas fa-chevron-left"></i>'
     });
     $('.slider-nav').slick({
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         speed: 1000,
         asNavFor: '.slider-for',
@@ -230,7 +230,7 @@
                 prevArrow: '<i class="fas fa-chevron-left"></i>'
             });
             $scope.find('.slider-nav').not('.slick-initialized').slick({
-                slidesToShow: 3,
+                slidesToShow: 4,
                 slidesToScroll: 1,
                 asNavFor: '.slider-for',
                 arrows: false,
