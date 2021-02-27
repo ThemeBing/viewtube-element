@@ -634,11 +634,11 @@
 }
 
 .slideshow-gallery .slider-for-vertical .gallery-block-item.style-1 {
-    height: 650px;
+    height: 720px;
 }
 
 .slideshow-gallery .slider-nav-vertical {
-    height: 650px;
+    height: 720px;
     overflow: hidden;
 }
 
@@ -647,7 +647,7 @@
 }
 
 .slideshow-gallery .slider-nav-vertical .gallery-block-item {
-    height: 150px;
+    height: 160px;
 }
 
 .slideshow-gallery .slider-nav-vertical .gallery-block-item.style-1 .gallery-block-content {
