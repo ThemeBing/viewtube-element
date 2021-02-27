@@ -115,6 +115,7 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
 
         <div class="slideshow-gallery-item">
           <div class="gallery-block-item style-1" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID(),'full')?>);">
+            <a href="<?php echo get_video_url(); ?>" class="popup-video"><i class="fa fa-play"></i></a>
              <div class="gallery-block-content">
                 <h2>
                    <a href="<?php the_permalink() ?>">
@@ -189,6 +190,7 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
 
               <div class="slideshow-gallery-item">
                 <div class="gallery-block-item style-1" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID(),'full')?>);">
+                  <a href="<?php echo get_video_url(); ?>" class="popup-video"><i class="fa fa-play"></i></a>
                    <div class="gallery-block-content">
                       <h2>
                          <a href="<?php the_permalink() ?>">
