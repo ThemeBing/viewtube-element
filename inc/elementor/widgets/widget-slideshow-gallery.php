@@ -33,54 +33,14 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
       );
 
       $this->add_control(
-         'title_switch',
-         [
-            'label' => __( 'Display title', 'viewtube' ),
-            'type' => \Elementor\Controls_Manager::SWITCHER,
-            'return_value' => 'yes',
-            'default' => 'yes'
-         ]
-      );
-
-      $this->add_control(
-         'title',
-         [
-            'label' => __( 'Title', 'viewtube' ),
-            'type' => \Elementor\Controls_Manager::TEXT,
-            'default' => __('What\'s new','viewtube'),            
-            'condition' => [
-               'title_switch' => 'yes'
-            ]
-         ]
-      );
-
-      $this->add_control(
-         'arrow',
-         [
-            'label' => __( 'Arrow', 'viewtube' ),
-            'type' => \Elementor\Controls_Manager::SWITCHER,
-            'return_value' => 'yes',
-            'default' => 'yes'
-         ]
-      );
-
-      $this->add_control(
          'layout', 
          [
             'label' => esc_html__('Choose Layout', 'viewtube'),
-            'type' => Custom_Controls_Manager::CHOOSEIMAGE,
+            'type' => Controls_Manager::SELECT,
             'default' => 'layout-1',
-            'options' => [ 
-               'layout-1' => [
-                  'title' =>esc_html__( 'Layout 1', 'viewtube' ),
-                  'image' => plugins_url( 'assets/images/gallery-layout-1.png', __DIR__ ),
-                  'width' => '100%'
-               ],
-               'layout-2' => [
-                  'title' =>esc_html__( 'Layout 2', 'viewtube' ),
-                  'image' => plugins_url( 'assets/images/gallery-layout-2.png', __DIR__ ),
-                  'width' => '100%'
-               ]
+            'options' => [
+               'layout-1'  => __( 'Layout 1', 'viewtube' ),
+               'layout-2' => __( 'Layout 2', 'viewtube' )
             ]
          ]
       );
@@ -93,13 +53,12 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
             'title' => esc_html__( 'Select a category', 'viewtube' ),
             'multiple' => true,
             'options' => viewtube_get_terms_dropdown_array([
-               'taxonomy' => 'category',
+               'taxonomy' => 'video_category',
                'hide_empty' => false,
                'parent' => 0
             ]),
          ]
       );
-
 
       $this->add_control(
          'ppp',
@@ -132,24 +91,6 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
          ]
       );
 
-      $this->add_control(
-         'title_length',
-         [
-            'label' => __( 'Title length', 'viewtube' ),
-            'type' => Controls_Manager::SLIDER,
-            'range' => [
-               'no' => [
-                  'min' => 0,
-                  'max' => 1000,
-                  'step' => 1,
-               ],
-            ],
-            'default' => [
-               'size' => 50,
-            ]
-         ]
-      );
-
       $this->end_controls_section();
 
    }
@@ -163,7 +104,7 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
      <div class="slider-for">
         <?php
         $post_block = new \WP_Query( array( 
-           'post_type' => 'post',
+           'post_type' => 'video',
            'cat' => $settings['category'],
            'posts_per_page' => $settings['ppp']['size'],
            'ignore_sticky_posts' => true,
@@ -174,10 +115,6 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
 
         <div class="slideshow-gallery-item">
           <div class="gallery-block-item style-1" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID(),'full')?>);">
-            <?php $categories = get_the_category();
-            if ( ! empty( $categories ) ) {
-              echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '" class="block-item-category" style="background:#'.esc_attr( get_term_meta( $categories[0]->term_id, 'category-color-id', true )).'">' . esc_html( $categories[0]->name ) . '</a>';
-            }?>
              <div class="gallery-block-content">
                 <h2>
                    <a href="<?php the_permalink() ?>">
@@ -192,8 +129,15 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
                       <span class="ml-2"><?php the_author(); ?></span>
                    </li>
                    <li class="list-inline-item">
+                      <i class="fas fa-tag"></i>
+                      <?php $categories = get_the_terms( get_the_ID(), 'video_category' );
+                      if ( ! empty( $categories ) ) {
+                          echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+                      }?>
+                   </li>
+                   <li class="list-inline-item">
                       <i class="fas fa-burn"></i>
-                      <span><?php echo viewtube_get_post_views(get_the_ID()) ?></span>
+                      <span><?php echo esc_html(viewtube_get_post_views(get_the_ID())); ?></span>
                    </li>
                 </ul>
              </div>
@@ -206,7 +150,7 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
      <div class="slider-nav">
         <?php
         $post_block = new \WP_Query( array( 
-           'post_type' => 'post',
+           'post_type' => 'video',
            'cat' => $settings['category'],
            'posts_per_page' => $settings['ppp']['size'],
            'ignore_sticky_posts' => true,
@@ -230,11 +174,11 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
     <?php } elseif( $settings['layout'] == 'layout-2' ) { ?>
     <div class="slideshow-gallery">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-9">
           <div class="slider-for-vertical">
               <?php
               $post_block = new \WP_Query( array( 
-                 'post_type' => 'post',
+                 'post_type' => 'video',
                  'cat' => $settings['category'],
                  'posts_per_page' => $settings['ppp']['size'],
                  'ignore_sticky_posts' => true,
@@ -260,14 +204,14 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
                          </li>
                          <li class="list-inline-item">
                             <i class="fas fa-tag"></i>
-                            <?php $categories = get_the_category();
+                            <?php $categories = get_the_terms( get_the_ID(), 'video_category' );
                             if ( ! empty( $categories ) ) {
                                 echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
                             }?>
                          </li>
                          <li class="list-inline-item">
                             <i class="fas fa-burn"></i>
-                            <span><?php echo viewtube_get_post_views(get_the_ID()) ?></span>
+                            <span><?php echo esc_html(viewtube_get_post_views(get_the_ID())); ?></span>
                          </li>
                       </ul>
                    </div>
@@ -277,11 +221,11 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
               wp_reset_postdata(); ?>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="slider-nav-vertical">
             <?php
             $post_block = new \WP_Query( array( 
-               'post_type' => 'post',
+               'post_type' => 'video',
                'cat' => $settings['category'],
                'posts_per_page' => $settings['ppp']['size'],
                'ignore_sticky_posts' => true,

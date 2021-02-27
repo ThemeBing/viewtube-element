@@ -552,6 +552,160 @@
 }
 
 /*--------------------------------------------------------------
+## Gallery item
+--------------------------------------------------------------*/
+.gallery-block-item.style-1 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery-block-item.style-1:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 44.79%, rgba(0, 0, 0, 0.35) 63.54%, #000000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(44.79%, rgba(0, 0, 0, 0)), color-stop(63.54%, rgba(0, 0, 0, 0.35)), to(#000000));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 44.79%, rgba(0, 0, 0, 0.35) 63.54%, #000000 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 44.79%, rgba(0, 0, 0, 0.35) 63.54%, #000000 100%);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.slideshow-gallery.video .gallery-block-item.style-1:after {
+    background: unset;
+}
+
+.gallery-block-item.style-1 .gallery-block-content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 60px 50px 35px;
+    z-index: 1;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0));
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0));
+}
+
+.gallery-block-item.style-1 .gallery-block-content a {
+    color: #fff;
+}
+
+.gallery-block-item.style-1 .gallery-block-content h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.gallery-block-item.style-1 .gallery-block-content ul li {
+    font-size: 14px;
+    color: #fff;
+}
+
+.gallery-block-item.style-1 .gallery-block-content ul li i {
+    margin-right: 5px;
+}
+
+.slideshow-gallery .slider-nav {
+    margin-top: 20px;
+}
+
+.slideshow-gallery .slider-nav .gallery-block-item {
+    height: 160px;
+}
+
+.slideshow-gallery .slider-nav .gallery-block-item.style-1 .gallery-block-content {
+    padding: 20px;
+}
+
+.slideshow-gallery .slider-nav .gallery-block-item h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.slideshow-gallery .slider-for-vertical .gallery-block-item.style-1 {
+    height: 650px;
+}
+
+.slideshow-gallery .slider-nav-vertical {
+    height: 650px;
+    overflow: hidden;
+}
+
+.slideshow-gallery .slider-nav-vertical .slideshow-gallery-item {
+    padding: 0 0 15px 0 !important;
+}
+
+.slideshow-gallery .slider-nav-vertical .gallery-block-item {
+    height: 150px;
+}
+
+.slideshow-gallery .slider-nav-vertical .gallery-block-item.style-1 .gallery-block-content {
+    padding: 20px;
+}
+
+.slideshow-gallery .slider-nav-vertical .gallery-block-item h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.slider-for-vertical .popup-video {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    top: 43%;
+    left: 43%;
+    color: #333;
+    z-index: 2;
+}
+
+.slideshow-gallery.video .slider-nav-vertical .slideshow-gallery-item {
+    position: relative;
+}
+
+.slider-nav-vertical .popup-video {
+    position: absolute;
+    content: '';
+    text-align: center;
+    border-radius: 50%;
+    line-height: 45px;
+    background: #fff;
+    top: 34%;
+    left: 40%;
+    width: 45px;
+    height: 45px;
+    z-index: 2;
+}
+
+.slideshow-gallery.video .gallery-block-content {
+    height: 100%;
+}
+
+.slideshow-gallery.video h2 {
+    color: #fff;
+    position: absolute;
+    bottom: 5%;
+}
+
+/*--------------------------------------------------------------
 # Contact form
 --------------------------------------------------------------*/
 .wpcf7 p {

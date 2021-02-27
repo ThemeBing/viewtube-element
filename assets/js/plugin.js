@@ -82,6 +82,71 @@
         prevArrow: '<i class="fas fa-chevron-left"></i>'
     });
 
+    // Slideshow Gallery
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        speed: 1000,
+        arrows: false,
+        fade: true,
+        dots: false,
+        asNavFor: '.slider-nav',
+        nextArrow: '<i class="fas fa-chevron-right"></i>',
+        prevArrow: '<i class="fas fa-chevron-left"></i>'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        speed: 1000,
+        asNavFor: '.slider-for',
+        arrows: false,
+        infinite: true,
+        centerMode: true,
+        focusOnSelect: true,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+    $('.slider-for-vertical').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        dots: false,
+        asNavFor: '.slider-nav-vertical',
+        nextArrow: '<i class="fas fa-chevron-right"></i>',
+        prevArrow: '<i class="fas fa-chevron-left"></i>'
+    });
+    $('.slider-nav-vertical').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        infinite: true,
+        asNavFor: '.slider-for-vertical',
+        vertical: true,
+        verticalSwiping: true,
+        arrows: false,
+        focusOnSelect: true
+    });
+
     // product items tab
     $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
         $('.product-items').slick('setPosition');
@@ -150,6 +215,47 @@
                 prevArrow: '<i class="fas fa-chevron-left"></i>'
             });
 
+        });
+
+        elementorFrontend.hooks.addAction('frontend/element_ready/slideshow_gallery.default', function($scope, $) {
+
+            $scope.find('.slider-for').not('.slick-initialized').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                dots: false,
+                asNavFor: '.slider-nav',
+                nextArrow: '<i class="fas fa-chevron-right"></i>',
+                prevArrow: '<i class="fas fa-chevron-left"></i>'
+            });
+            $scope.find('.slider-nav').not('.slick-initialized').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                arrows: false,
+                centerMode: true,
+                focusOnSelect: true
+            });
+            $scope.find('.slider-for-vertical').not('.slick-initialized').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                dots: false,
+                asNavFor: '.slider-nav-vertical',
+                nextArrow: '<i class="fas fa-chevron-right"></i>',
+                prevArrow: '<i class="fas fa-chevron-left"></i>'
+            });
+            $scope.find('.slider-nav-vertical').not('.slick-initialized').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for-vertical',
+                vertical: true,
+                verticalSwiping: true,
+                arrows: false,
+                focusOnSelect: true
+            });
         });
 
     });
