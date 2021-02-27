@@ -114,34 +114,7 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
         while ( $post_block->have_posts() ) : $post_block->the_post(); ?>
 
         <div class="slideshow-gallery-item">
-          <div class="gallery-block-item style-1" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID(),'full')?>);">
-             <div class="gallery-block-content">
-                <h2>
-                   <a href="<?php the_permalink() ?>">
-                      <?php echo mb_strimwidth( get_the_title(), 0, 40, '..' );?>
-                   </a>
-                </h2>
-                <ul class="list-inline mb-0">
-                   <li class="list-inline-item">
-                      <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>">
-                        <img class="d-inline avatar rounded-circle" src="<?php echo esc_url( get_avatar_url( get_the_author_meta( 'ID' ),['size' => '32'] ) ); ?>" alt="<?php the_title_attribute() ?>">
-                      </a>
-                      <span class="ml-2"><?php the_author(); ?></span>
-                   </li>
-                   <li class="list-inline-item">
-                      <i class="fas fa-tag"></i>
-                      <?php $categories = get_the_terms( get_the_ID(), 'video_category' );
-                      if ( ! empty( $categories ) ) {
-                          echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
-                      }?>
-                   </li>
-                   <li class="list-inline-item">
-                      <i class="fas fa-burn"></i>
-                      <span><?php echo esc_html(viewtube_get_post_views(get_the_ID())); ?></span>
-                   </li>
-                </ul>
-             </div>
-          </div>
+          <?php do_action( 'video_player','viewtube-player-single' ) ?>
         </div>
         
         <?php endwhile; 
@@ -188,34 +161,7 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
               while ( $post_block->have_posts() ) : $post_block->the_post(); ?>
 
               <div class="slideshow-gallery-item">
-                <div class="gallery-block-item style-1" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID(),'full')?>);">
-                   <div class="gallery-block-content">
-                      <h2>
-                         <a href="<?php the_permalink() ?>">
-                            <?php echo mb_strimwidth( get_the_title(), 0, 40, '..' );?>
-                         </a>
-                      </h2>
-                      <ul class="list-inline mb-0">
-                         <li class="list-inline-item">
-                            <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>">
-                              <img class="d-inline avatar rounded-circle" src="<?php echo esc_url( get_avatar_url( get_the_author_meta( 'ID' ),['size' => '32'] ) ); ?>" alt="<?php the_title_attribute() ?>">
-                            </a>
-                            <span class="ml-2"><?php the_author(); ?></span>
-                         </li>
-                         <li class="list-inline-item">
-                            <i class="fas fa-tag"></i>
-                            <?php $categories = get_the_terms( get_the_ID(), 'video_category' );
-                            if ( ! empty( $categories ) ) {
-                                echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
-                            }?>
-                         </li>
-                         <li class="list-inline-item">
-                            <i class="fas fa-burn"></i>
-                            <span><?php echo esc_html(viewtube_get_post_views(get_the_ID())); ?></span>
-                         </li>
-                      </ul>
-                   </div>
-                </div>
+                <?php do_action( 'video_player','viewtube-player-single' ) ?>
               </div>
               <?php endwhile; 
               wp_reset_postdata(); ?>
