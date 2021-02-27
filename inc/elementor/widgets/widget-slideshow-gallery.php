@@ -119,7 +119,7 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
              <div class="gallery-block-content">
                 <h2>
                    <a href="<?php the_permalink() ?>">
-                      <?php echo mb_strimwidth( get_the_title(), 0, 40, '..' );?>
+                      <?php the_title(); ?>
                    </a>
                 </h2>
                 <ul class="list-inline mb-0">
@@ -163,7 +163,7 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
         <div class="slideshow-gallery-item pl-2 pr-2">
           <div class="gallery-block-item style-1" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID(),'viewtube-260x146')?>);">
              <div class="gallery-block-content">
-                <h5><?php echo mb_strimwidth( get_the_title(), 0, 40, '..' );?></h5>
+                <h5><?php the_title(); ?></h5>
              </div>
           </div>
         </div>
