@@ -1,0 +1,4049 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: ViewTube Element\n"
+"POT-Creation-Date: 2021-02-27 23:29+0600\n"
+"PO-Revision-Date: 2021-02-27 23:29+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: viewtube-element.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/custom-posts.php:16
+msgid "Videos"
+msgstr ""
+
+#: inc/custom-posts.php:17 inc/elementor/widgets/widget-video.php:13
+#: inc/elementor/widgets/widget-video.php:28
+msgid "Video"
+msgstr ""
+
+#: inc/custom-posts.php:18
+msgid "Add New Video"
+msgstr ""
+
+#: inc/custom-posts.php:20
+msgid "Description."
+msgstr ""
+
+#: inc/custom-posts.php:36
+msgid "Video Category"
+msgstr ""
+
+#: inc/custom-posts.php:37
+msgid "Add New Category"
+msgstr ""
+
+#: inc/elementor/elementor.php:37
+msgid "viewtube Elements"
+msgstr ""
+
+#: inc/elementor/widgets/widget-accordion.php:14
+#: inc/elementor/widgets/widget-accordion.php:30
+msgid "Accordion"
+msgstr ""
+
+#: inc/elementor/widgets/widget-accordion.php:38
+msgid "Collapsed Icon"
+msgstr ""
+
+#: inc/elementor/widgets/widget-accordion.php:46
+msgid "Expanded Icon"
+msgstr ""
+
+#: inc/elementor/widgets/widget-accordion.php:55
+#: inc/elementor/widgets/widget-ad.php:98
+#: inc/elementor/widgets/widget-banner.php:51
+#: inc/elementor/widgets/widget-infobox.php:76
+msgid "Title"
+msgstr ""
+
+#: inc/elementor/widgets/widget-accordion.php:62
+#: inc/elementor/widgets/widget-infobox.php:85
+msgid "Text"
+msgstr ""
+
+#: inc/elementor/widgets/widget-accordion.php:71
+msgid "Accordion list"
+msgstr ""
+
+#: inc/elementor/widgets/widget-accordion.php:76
+msgid "How can i get help by viewtube?"
+msgstr ""
+
+#: inc/elementor/widgets/widget-accordion.php:77
+#: inc/elementor/widgets/widget-accordion.php:81
+#: inc/elementor/widgets/widget-accordion.php:85
+msgid ""
+"Lorem ipsum dolor sit amet, vix an natum labitur eleifd, mel am laoreet "
+"menandri. Ei justo complectitur duo. Ei mundi solet utos soletu possit quo. "
+"Sea cu justo laudem."
+msgstr ""
+
+#: inc/elementor/widgets/widget-accordion.php:80
+msgid "What about loan programs & after bank loan advantage?"
+msgstr ""
+
+#: inc/elementor/widgets/widget-accordion.php:84
+msgid "How can i opent new account?"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:14
+#: inc/elementor/widgets/widget-ad.php:30
+msgid "Ad Banner"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:38
+msgid "Layout"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:42
+msgid "Horizontal"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:43
+msgid "Vertical"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:51
+msgid "Alignment"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:55
+#: inc/elementor/widgets/widget-button.php:59
+msgid "Left"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:59
+#: inc/elementor/widgets/widget-button.php:58
+msgid "Center"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:63
+#: inc/elementor/widgets/widget-button.php:60
+msgid "Right"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:75
+msgid "Padding"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:87
+#: inc/elementor/widgets/widget-banner.php:40
+msgid "Choose Image"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:100
+msgid "Award show"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:107
+#: inc/elementor/widgets/widget-banner.php:61
+msgid "Description"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:109
+msgid "Watch in premium"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:117
+msgid "Link Text"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:119
+#: inc/elementor/widgets/widget-ad.php:143
+msgid "Accessories"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:125
+msgid "Link URL"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:134
+msgid "Links"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:147
+msgid "Timing Belts"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:151
+msgid "Engine Mounts"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:162
+#: inc/elementor/widgets/widget-button.php:14
+#: inc/elementor/widgets/widget-button.php:30
+#: inc/elementor/widgets/widget-infobox.php:103
+msgid "Button"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:164
+msgid "Watch Now"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ad.php:171
+#: inc/elementor/widgets/widget-button.php:45
+msgid "Button URL"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ajax-search.php:14
+#: inc/elementor/widgets/widget-ajax-search.php:30
+msgid "Search"
+msgstr ""
+
+#: inc/elementor/widgets/widget-ajax-search.php:45
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:14
+#: inc/elementor/widgets/widget-banner.php:30
+msgid "Banner"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:53
+msgid "Watch the ViewTube Streamy Awards Show"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:63
+msgid ""
+"Discover the best of viewtube. A rotating selection of delightful apps and "
+"exciting games, handpicked by the viewtube editors."
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:70
+msgid "Rating"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:90
+msgid "Video resolution"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:93
+msgid "HD"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:94
+msgid "4K"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:95
+msgid "8K"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:104
+msgid "Year"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:106
+msgid "2021"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:113
+msgid "Duration"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:115
+msgid "2 h 20 min"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:122
+#: inc/elementor/widgets/widget-slideshow-gallery.php:51
+#: inc/elementor/widgets/widget-video.php:95
+msgid "Category"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:124
+msgid "Action"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:132
+msgid "Button url"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:141
+msgid "Button text"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:143
+msgid "Watch Video"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:150
+msgid "Banners"
+msgstr ""
+
+#: inc/elementor/widgets/widget-banner.php:161
+msgid "Text Color"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:13
+msgid "Latest Blog"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:28
+msgid "Blog"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:36
+#: inc/elementor/widgets/widget-video.php:36
+msgid "Columns"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:40
+#: inc/elementor/widgets/widget-video.php:40
+msgid "Column 1"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:41
+#: inc/elementor/widgets/widget-video.php:41
+msgid "Column 2"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:42
+#: inc/elementor/widgets/widget-video.php:42
+msgid "Column 3"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:43
+#: inc/elementor/widgets/widget-video.php:43
+msgid "Column 4"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:44
+#: inc/elementor/widgets/widget-video.php:44
+msgid "Column 6"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:45
+#: inc/elementor/widgets/widget-video.php:45
+msgid "Column 12"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:53
+#: inc/elementor/widgets/widget-slideshow-gallery.php:66
+#: inc/elementor/widgets/widget-video.php:110
+msgid "Number of Items"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:71
+#: inc/elementor/widgets/widget-slideshow-gallery.php:84
+#: inc/elementor/widgets/widget-video.php:128
+msgid "Order"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:75
+#: inc/elementor/widgets/widget-slideshow-gallery.php:88
+#: inc/elementor/widgets/widget-video.php:132
+msgid "Ascending"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:76
+#: inc/elementor/widgets/widget-slideshow-gallery.php:89
+#: inc/elementor/widgets/widget-video.php:133
+msgid "Descending"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog.php:129
+#, php-format
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/elementor/widgets/widget-button.php:37
+msgid "Button Text"
+msgstr ""
+
+#: inc/elementor/widgets/widget-button.php:39
+#: inc/elementor/widgets/widget-infobox.php:105
+msgid "Learn More"
+msgstr ""
+
+#: inc/elementor/widgets/widget-button.php:54
+msgid "Align"
+msgstr ""
+
+#: inc/elementor/widgets/widget-button.php:68
+msgid "border"
+msgstr ""
+
+#: inc/elementor/widgets/widget-button.php:70
+#: inc/elementor/widgets/widget-button.php:82
+#: inc/elementor/widgets/widget-infobox.php:114
+#: inc/elementor/widgets/widget-video.php:55
+msgid "On"
+msgstr ""
+
+#: inc/elementor/widgets/widget-button.php:71
+#: inc/elementor/widgets/widget-button.php:83
+#: inc/elementor/widgets/widget-infobox.php:115
+#: inc/elementor/widgets/widget-video.php:56
+msgid "Off"
+msgstr ""
+
+#: inc/elementor/widgets/widget-button.php:80
+msgid "White border"
+msgstr ""
+
+#: inc/elementor/widgets/widget-countdown.php:14
+#: inc/elementor/widgets/widget-countdown.php:30
+msgid "Countdown"
+msgstr ""
+
+#: inc/elementor/widgets/widget-countdown.php:38
+msgid "Date"
+msgstr ""
+
+#: inc/elementor/widgets/widget-infobox.php:13
+#: inc/elementor/widgets/widget-infobox.php:27
+msgid "Info Box"
+msgstr ""
+
+#: inc/elementor/widgets/widget-infobox.php:36
+msgid "Icon Background"
+msgstr ""
+
+#: inc/elementor/widgets/widget-infobox.php:46
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/elementor/widgets/widget-infobox.php:54
+msgid "Icon"
+msgstr ""
+
+#: inc/elementor/widgets/widget-infobox.php:66
+msgid "Icon Color"
+msgstr ""
+
+#: inc/elementor/widgets/widget-infobox.php:78
+msgid "Best Apps and Games"
+msgstr ""
+
+#: inc/elementor/widgets/widget-infobox.php:87
+msgid "Discover the best of viewtube. A rotating selection of delightful apps"
+msgstr ""
+
+#: inc/elementor/widgets/widget-infobox.php:94
+msgid "URL"
+msgstr ""
+
+#: inc/elementor/widgets/widget-infobox.php:112
+msgid "Drop shadow"
+msgstr ""
+
+#: inc/elementor/widgets/widget-slideshow-gallery.php:14
+#: inc/elementor/widgets/widget-slideshow-gallery.php:30
+msgid "Slideshow Gallery"
+msgstr ""
+
+#: inc/elementor/widgets/widget-slideshow-gallery.php:38
+msgid "Choose Layout"
+msgstr ""
+
+#: inc/elementor/widgets/widget-slideshow-gallery.php:42
+msgid "Layout 1"
+msgstr ""
+
+#: inc/elementor/widgets/widget-slideshow-gallery.php:43
+msgid "Layout 2"
+msgstr ""
+
+#: inc/elementor/widgets/widget-slideshow-gallery.php:53
+#: inc/elementor/widgets/widget-video.php:97
+msgid "Select a category"
+msgstr ""
+
+#: inc/elementor/widgets/widget-video.php:53
+msgid "Slide"
+msgstr ""
+
+#: inc/elementor/widgets/widget-video.php:65
+msgid "Slides To Show"
+msgstr ""
+
+#: inc/elementor/widgets/widget-video.php:80
+msgid "Slides To Scroll"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:14
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:16
+msgid "None"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:69
+msgid "500px"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:70
+msgid "accessible-icon"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:71
+msgid "accusoft"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:72 inc/mega-menu/nav-walker.php:73
+msgid "address-book"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:74 inc/mega-menu/nav-walker.php:75
+msgid "address-card"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:76
+msgid "adjust"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:77
+msgid "adn"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:78
+msgid "adversal"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:79
+msgid "affiliatetheme"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:80
+msgid "algolia"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:81
+msgid "align-center"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:82
+msgid "align-justify"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:83
+msgid "align-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:84
+msgid "align-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:85
+msgid "allergies"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:86
+msgid "amazon"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:87
+msgid "amazon-pay"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:88
+msgid "ambulance"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:89
+msgid "american-sign-language-interpreting"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:90
+msgid "amilia"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:91
+msgid "anchor"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:92
+msgid "android"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:93
+msgid "angellist"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:94
+msgid "angle-double-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:95
+msgid "angle-double-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:96
+msgid "angle-double-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:97
+msgid "angle-double-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:98
+msgid "angle-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:99
+msgid "angle-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:100
+msgid "angle-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:101
+msgid "angle-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:102
+msgid "angrycreative"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:103
+msgid "angular"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:104
+msgid "app-store"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:105
+msgid "app-store-ios"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:106
+msgid "apper"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:107
+msgid "apple"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:108
+msgid "apple-pay"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:109
+msgid "archive"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:110 inc/mega-menu/nav-walker.php:111
+msgid "arrow-alt-circle-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:112 inc/mega-menu/nav-walker.php:113
+msgid "arrow-alt-circle-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:114 inc/mega-menu/nav-walker.php:115
+msgid "arrow-alt-circle-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:116 inc/mega-menu/nav-walker.php:117
+msgid "arrow-alt-circle-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:118
+msgid "arrow-circle-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:119
+msgid "arrow-circle-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:120
+msgid "arrow-circle-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:121
+msgid "arrow-circle-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:122
+msgid "arrow-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:123
+msgid "arrow-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:124
+msgid "arrow-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:125
+msgid "arrow-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:126
+msgid "arrows-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:127
+msgid "arrows-alt-h"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:128
+msgid "arrows-alt-v"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:129
+msgid "assistive-listening-systems"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:130
+msgid "asterisk"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:131
+msgid "asymmetrik"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:132
+msgid "at"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:133
+msgid "audible"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:134
+msgid "audio-description"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:135
+msgid "autoprefixer"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:136
+msgid "avianex"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:137
+msgid "aviato"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:138
+msgid "aws"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:139
+msgid "backward"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:140
+msgid "balance-scale"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:141
+msgid "ban"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:142
+msgid "band-aid"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:143
+msgid "bandcamp"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:144
+msgid "barcode"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:145
+msgid "bars"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:146
+msgid "baseball-ball"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:147
+msgid "basketball-ball"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:148
+msgid "bath"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:149
+msgid "battery-empty"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:150
+msgid "battery-full"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:151
+msgid "battery-half"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:152
+msgid "battery-quarter"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:153
+msgid "battery-three-quarters"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:154
+msgid "bed"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:155
+msgid "beer"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:156
+msgid "behance"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:157
+msgid "behance-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:158 inc/mega-menu/nav-walker.php:159
+msgid "bell"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:160 inc/mega-menu/nav-walker.php:161
+msgid "bell-slash"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:162
+msgid "bicycle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:163
+msgid "bimobject"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:164
+msgid "binoculars"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:165
+msgid "birthday-cake"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:166
+msgid "bitbucket"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:167
+msgid "bitcoin"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:168
+msgid "bity"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:169
+msgid "black-tie"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:170
+msgid "blackberry"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:171
+msgid "blind"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:172
+msgid "blogger"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:173
+msgid "blogger-b"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:174
+msgid "bluetooth"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:175
+msgid "bluetooth-b"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:176
+msgid "bold"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:177
+msgid "bolt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:178
+msgid "bomb"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:179
+msgid "book"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:180 inc/mega-menu/nav-walker.php:181
+msgid "bookmark"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:182
+msgid "bowling-ball"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:183
+msgid "box"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:184
+msgid "box-open"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:185
+msgid "boxes"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:186
+msgid "braille"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:187
+msgid "briefcase"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:188
+msgid "briefcase-medical"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:189
+msgid "btc"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:190
+msgid "bug"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:191 inc/mega-menu/nav-walker.php:192
+msgid "building"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:193
+msgid "bullhorn"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:194
+msgid "bullseye"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:195
+msgid "burn"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:196
+msgid "buromobelexperte"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:197
+msgid "bus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:198
+msgid "buysellads"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:199
+msgid "calculator"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:200 inc/mega-menu/nav-walker.php:201
+msgid "calendar"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:202 inc/mega-menu/nav-walker.php:203
+msgid "calendar-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:204 inc/mega-menu/nav-walker.php:205
+msgid "calendar-check"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:206 inc/mega-menu/nav-walker.php:207
+msgid "calendar-minus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:208 inc/mega-menu/nav-walker.php:209
+msgid "calendar-plus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:210 inc/mega-menu/nav-walker.php:211
+msgid "calendar-times"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:212
+msgid "camera"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:213
+msgid "camera-retro"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:214
+msgid "capsules"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:215
+msgid "car"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:216
+msgid "caret-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:217
+msgid "caret-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:218
+msgid "caret-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:219 inc/mega-menu/nav-walker.php:220
+msgid "caret-square-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:221 inc/mega-menu/nav-walker.php:222
+msgid "caret-square-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:223 inc/mega-menu/nav-walker.php:224
+msgid "caret-square-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:225 inc/mega-menu/nav-walker.php:226
+msgid "caret-square-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:227
+msgid "caret-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:228
+msgid "cart-arrow-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:229
+msgid "cart-plus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:230
+msgid "cc-amazon-pay"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:231
+msgid "cc-amex"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:232
+msgid "cc-apple-pay"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:233
+msgid "cc-diners-club"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:234
+msgid "cc-discover"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:235
+msgid "cc-jcb"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:236
+msgid "cc-mastercard"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:237
+msgid "cc-paypal"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:238
+msgid "cc-stripe"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:239
+msgid "cc-visa"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:240
+msgid "centercode"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:241
+msgid "certificate"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:242
+msgid "chart-area"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:243 inc/mega-menu/nav-walker.php:244
+msgid "chart-bar"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:245
+msgid "chart-line"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:246
+msgid "chart-pie"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:247
+msgid "check"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:248 inc/mega-menu/nav-walker.php:249
+msgid "check-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:250 inc/mega-menu/nav-walker.php:251
+msgid "check-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:252
+msgid "chess"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:253
+msgid "chess-bishop"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:254
+msgid "chess-board"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:255
+msgid "chess-king"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:256
+msgid "chess-knight"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:257
+msgid "chess-pawn"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:258
+msgid "chess-queen"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:259
+msgid "chess-rook"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:260
+msgid "chevron-circle-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:261
+msgid "chevron-circle-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:262
+msgid "chevron-circle-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:263
+msgid "chevron-circle-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:264
+msgid "chevron-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:265
+msgid "chevron-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:266
+msgid "chevron-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:267
+msgid "chevron-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:268
+msgid "child"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:269
+msgid "chrome"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:270 inc/mega-menu/nav-walker.php:271
+msgid "circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:272
+msgid "circle-notch"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:273 inc/mega-menu/nav-walker.php:274
+msgid "clipboard"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:275
+msgid "clipboard-check"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:276
+msgid "clipboard-list"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:277 inc/mega-menu/nav-walker.php:278
+msgid "clock"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:279 inc/mega-menu/nav-walker.php:280
+msgid "clone"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:281 inc/mega-menu/nav-walker.php:282
+msgid "closed-captioning"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:283
+msgid "cloud"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:284
+msgid "cloud-download-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:285
+msgid "cloud-upload-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:286
+msgid "cloudscale"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:287
+msgid "cloudsmith"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:288
+msgid "cloudversify"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:289
+msgid "code"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:290
+msgid "code-branch"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:291
+msgid "codepen"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:292
+msgid "codiepie"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:293
+msgid "coffee"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:294
+msgid "cog"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:295
+msgid "cogs"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:296
+msgid "columns"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:297 inc/mega-menu/nav-walker.php:298
+msgid "comment"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:299 inc/mega-menu/nav-walker.php:300
+msgid "comment-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:301
+msgid "comment-dots"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:302
+msgid "comment-slash"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:303 inc/mega-menu/nav-walker.php:304
+msgid "comments"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:305 inc/mega-menu/nav-walker.php:306
+msgid "compass"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:307
+msgid "compress"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:308
+msgid "connectdevelop"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:309
+msgid "contao"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:310 inc/mega-menu/nav-walker.php:311
+msgid "copy"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:312 inc/mega-menu/nav-walker.php:313
+msgid "copyright"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:314
+msgid "couch"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:315
+msgid "cpanel"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:316
+msgid "creative-commons"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:317 inc/mega-menu/nav-walker.php:318
+msgid "credit-card"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:319
+msgid "crop"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:320
+msgid "crosshairs"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:321
+msgid "css3"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:322
+msgid "css3-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:323
+msgid "cube"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:324
+msgid "cubes"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:325
+msgid "cut"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:326
+msgid "cuttlefish"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:327
+msgid "d-and-d"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:328
+msgid "dashcube"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:329
+msgid "database"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:330
+msgid "deaf"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:331
+msgid "delicious"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:332
+msgid "deploydog"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:333
+msgid "deskpro"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:334
+msgid "desktop"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:335
+msgid "deviantart"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:336
+msgid "diagnoses"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:337
+msgid "digg"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:338
+msgid "digital-ocean"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:339
+msgid "discord"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:340
+msgid "discourse"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:341
+msgid "dna"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:342
+msgid "dochub"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:343
+msgid "docker"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:344
+msgid "dollar-sign"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:345
+msgid "dolly"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:346
+msgid "dolly-flatbed"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:347
+msgid "donate"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:348 inc/mega-menu/nav-walker.php:349
+msgid "dot-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:350
+msgid "dove"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:351
+msgid "download"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:352
+msgid "draft2digital"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:353
+msgid "dribbble"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:354
+msgid "dribbble-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:355
+msgid "dropbox"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:356
+msgid "drupal"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:357
+msgid "dyalog"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:358
+msgid "earlybirds"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:359
+msgid "edge"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:360 inc/mega-menu/nav-walker.php:361
+msgid "edit"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:362
+msgid "eject"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:363
+msgid "elementor"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:364
+msgid "ellipsis-h"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:365
+msgid "ellipsis-v"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:366
+msgid "ember"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:367
+msgid "empire"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:368 inc/mega-menu/nav-walker.php:369
+msgid "envelope"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:370 inc/mega-menu/nav-walker.php:371
+msgid "envelope-open"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:372
+msgid "envelope-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:373
+msgid "envira"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:374
+msgid "eraser"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:375
+msgid "erlang"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:376
+msgid "ethereum"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:377
+msgid "etsy"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:378
+msgid "euro-sign"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:379
+msgid "exchange-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:380
+msgid "exclamation"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:381
+msgid "exclamation-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:382
+msgid "exclamation-triangle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:383
+msgid "expand"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:384
+msgid "expand-arrows-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:385
+msgid "expeditedssl"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:386
+msgid "external-link-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:387
+msgid "external-link-square-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:388
+msgid "eye"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:389
+msgid "eye-dropper"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:390 inc/mega-menu/nav-walker.php:391
+msgid "eye-slash"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:392
+msgid "facebook"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:393
+msgid "facebook-f"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:394
+msgid "facebook-messenger"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:395
+msgid "facebook-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:396
+msgid "fast-backward"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:397
+msgid "fast-forward"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:398
+msgid "fax"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:399
+msgid "female"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:400
+msgid "fighter-jet"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:401 inc/mega-menu/nav-walker.php:402
+msgid "file"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:403 inc/mega-menu/nav-walker.php:404
+msgid "file-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:405 inc/mega-menu/nav-walker.php:406
+msgid "file-archive"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:407 inc/mega-menu/nav-walker.php:408
+msgid "file-audio"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:409 inc/mega-menu/nav-walker.php:410
+msgid "file-code"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:411 inc/mega-menu/nav-walker.php:412
+msgid "file-excel"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:413 inc/mega-menu/nav-walker.php:414
+msgid "file-image"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:415
+msgid "file-medical"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:416
+msgid "file-medical-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:417 inc/mega-menu/nav-walker.php:418
+msgid "file-pdf"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:419 inc/mega-menu/nav-walker.php:420
+msgid "file-powerpoint"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:421 inc/mega-menu/nav-walker.php:422
+msgid "file-video"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:423 inc/mega-menu/nav-walker.php:424
+msgid "file-word"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:425
+msgid "film"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:426
+msgid "filter"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:427
+msgid "fire"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:428
+msgid "fire-extinguisher"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:429
+msgid "firefox"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:430
+msgid "first-aid"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:431
+msgid "first-order"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:432
+msgid "firstdraft"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:433 inc/mega-menu/nav-walker.php:434
+msgid "flag"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:435
+msgid "flag-checkered"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:436
+msgid "flask"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:437
+msgid "flickr"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:438
+msgid "flipboard"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:439
+msgid "fly"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:440 inc/mega-menu/nav-walker.php:441
+msgid "folder"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:442 inc/mega-menu/nav-walker.php:443
+msgid "folder-open"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:444
+msgid "font"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:445
+msgid "font-awesome"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:446
+msgid "font-awesome-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:447
+msgid "font-awesome-flag"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:448
+msgid "fonticons"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:449
+msgid "fonticons-fi"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:450
+msgid "football-ball"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:451
+msgid "fort-awesome"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:452
+msgid "fort-awesome-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:453
+msgid "forumbee"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:454
+msgid "forward"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:455
+msgid "foursquare"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:456
+msgid "free-code-camp"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:457
+msgid "freebsd"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:458 inc/mega-menu/nav-walker.php:459
+msgid "frown"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:460 inc/mega-menu/nav-walker.php:461
+msgid "futbol"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:462
+msgid "gamepad"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:463
+msgid "gavel"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:464 inc/mega-menu/nav-walker.php:465
+msgid "gem"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:466
+msgid "genderless"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:467
+msgid "get-pocket"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:468
+msgid "gg"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:469
+msgid "gg-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:470
+msgid "gift"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:471
+msgid "git"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:472
+msgid "git-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:473
+msgid "github"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:474
+msgid "github-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:475
+msgid "github-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:476
+msgid "gitkraken"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:477
+msgid "gitlab"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:478
+msgid "gitter"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:479
+msgid "glass-martini"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:480
+msgid "glide"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:481
+msgid "glide-g"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:482
+msgid "globe"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:483
+msgid "gofore"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:484
+msgid "golf-ball"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:485
+msgid "goodreads"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:486
+msgid "goodreads-g"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:487
+msgid "google"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:488
+msgid "google-drive"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:489
+msgid "google-play"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:490
+msgid "google-plus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:491
+msgid "google-plus-g"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:492
+msgid "google-plus-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:493
+msgid "google-wallet"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:494
+msgid "graduation-cap"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:495
+msgid "gratipay"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:496
+msgid "grav"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:497
+msgid "gripfire"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:498
+msgid "grunt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:499
+msgid "gulp"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:500
+msgid "h-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:501
+msgid "hacker-news"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:502
+msgid "hacker-news-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:503
+msgid "hand-holding"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:504
+msgid "hand-holding-heart"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:505
+msgid "hand-holding-usd"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:506 inc/mega-menu/nav-walker.php:507
+msgid "hand-lizard"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:508 inc/mega-menu/nav-walker.php:509
+msgid "hand-paper"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:510 inc/mega-menu/nav-walker.php:511
+msgid "hand-peace"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:512 inc/mega-menu/nav-walker.php:513
+msgid "hand-point-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:514 inc/mega-menu/nav-walker.php:515
+msgid "hand-point-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:516 inc/mega-menu/nav-walker.php:517
+msgid "hand-point-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:518 inc/mega-menu/nav-walker.php:519
+msgid "hand-point-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:520 inc/mega-menu/nav-walker.php:521
+msgid "hand-pointer"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:522 inc/mega-menu/nav-walker.php:523
+msgid "hand-rock"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:524 inc/mega-menu/nav-walker.php:525
+msgid "hand-scissors"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:526 inc/mega-menu/nav-walker.php:527
+msgid "hand-spock"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:528
+msgid "hands"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:529
+msgid "hands-helping"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:530 inc/mega-menu/nav-walker.php:531
+msgid "handshake"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:532
+msgid "hashtag"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:533 inc/mega-menu/nav-walker.php:534
+msgid "hdd"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:535
+msgid "heading"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:536
+msgid "headphones"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:537 inc/mega-menu/nav-walker.php:538
+msgid "heart"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:539
+msgid "heartbeat"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:540
+msgid "hips"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:541
+msgid "hire-a-helper"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:542
+msgid "history"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:543
+msgid "hockey-puck"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:544
+msgid "home"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:545
+msgid "hooli"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:546 inc/mega-menu/nav-walker.php:547
+msgid "hospital"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:548
+msgid "hospital-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:549
+msgid "hospital-symbol"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:550
+msgid "hotjar"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:551 inc/mega-menu/nav-walker.php:552
+msgid "hourglass"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:553
+msgid "hourglass-end"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:554
+msgid "hourglass-half"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:555
+msgid "hourglass-start"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:556
+msgid "houzz"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:557
+msgid "html5"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:558
+msgid "hubspot"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:559
+msgid "i-cursor"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:560 inc/mega-menu/nav-walker.php:561
+msgid "id-badge"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:562 inc/mega-menu/nav-walker.php:563
+msgid "id-card"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:564
+msgid "id-card-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:565 inc/mega-menu/nav-walker.php:566
+msgid "image"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:567 inc/mega-menu/nav-walker.php:568
+msgid "images"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:569
+msgid "imdb"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:570
+msgid "inbox"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:571
+msgid "indent"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:572
+msgid "industry"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:573
+msgid "info"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:574
+msgid "info-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:575
+msgid "instagram"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:576
+msgid "internet-explorer"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:577
+msgid "ioxhost"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:578
+msgid "italic"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:579
+msgid "itunes"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:580
+msgid "itunes-note"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:581
+msgid "java"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:582
+msgid "jenkins"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:583
+msgid "joget"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:584
+msgid "joomla"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:585
+msgid "js"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:586
+msgid "js-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:587
+msgid "jsfiddle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:588
+msgid "key"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:589 inc/mega-menu/nav-walker.php:590
+msgid "keyboard"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:591
+msgid "keycdn"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:592
+msgid "kickstarter"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:593
+msgid "kickstarter-k"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:594
+msgid "korvue"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:595
+msgid "language"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:596
+msgid "laptop"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:597
+msgid "laravel"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:598
+msgid "lastfm"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:599
+msgid "lastfm-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:600
+msgid "leaf"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:601
+msgid "leanpub"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:602 inc/mega-menu/nav-walker.php:603
+msgid "lemon"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:604
+msgid "less"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:605
+msgid "level-down-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:606
+msgid "level-up-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:607 inc/mega-menu/nav-walker.php:608
+msgid "life-ring"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:609 inc/mega-menu/nav-walker.php:610
+msgid "lightbulb"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:611
+msgid "line"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:612
+msgid "link"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:613
+msgid "linkedin"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:614
+msgid "linkedin-in"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:615
+msgid "linode"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:616
+msgid "linux"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:617
+msgid "lira-sign"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:618
+msgid "list"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:619 inc/mega-menu/nav-walker.php:620
+msgid "list-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:621
+msgid "list-ol"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:622
+msgid "list-ul"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:623
+msgid "location-arrow"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:624
+msgid "lock"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:625
+msgid "lock-open"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:626
+msgid "long-arrow-alt-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:627
+msgid "long-arrow-alt-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:628
+msgid "long-arrow-alt-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:629
+msgid "long-arrow-alt-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:630
+msgid "low-vision"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:631
+msgid "lyft"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:632
+msgid "magento"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:633
+msgid "magic"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:634
+msgid "magnet"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:635
+msgid "male"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:636 inc/mega-menu/nav-walker.php:637
+msgid "map"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:638
+msgid "map-marker"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:639
+msgid "map-marker-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:640
+msgid "map-pin"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:641
+msgid "map-signs"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:642
+msgid "mars"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:643
+msgid "mars-double"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:644
+msgid "mars-stroke"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:645
+msgid "mars-stroke-h"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:646
+msgid "mars-stroke-v"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:647
+msgid "maxcdn"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:648
+msgid "medapps"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:649
+msgid "medium"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:650
+msgid "medium-m"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:651
+msgid "medkit"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:652
+msgid "medrt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:653
+msgid "meetup"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:654 inc/mega-menu/nav-walker.php:655
+msgid "meh"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:656
+msgid "mercury"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:657
+msgid "microchip"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:658
+msgid "microphone"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:659
+msgid "microphone-slash"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:660
+msgid "microsoft"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:661
+msgid "minus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:662
+msgid "minus-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:663 inc/mega-menu/nav-walker.php:664
+msgid "minus-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:665
+msgid "mix"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:666
+msgid "mixcloud"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:667
+msgid "mizuni"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:668
+msgid "mobile"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:669
+msgid "mobile-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:670
+msgid "modx"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:671
+msgid "monero"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:672 inc/mega-menu/nav-walker.php:673
+msgid "money-bill-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:674 inc/mega-menu/nav-walker.php:675
+msgid "moon"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:676
+msgid "motorcycle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:677
+msgid "mouse-pointer"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:678
+msgid "music"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:679
+msgid "napster"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:680
+msgid "neuter"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:681 inc/mega-menu/nav-walker.php:682
+msgid "newspaper"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:683
+msgid "nintendo-switch"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:684
+msgid "node"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:685
+msgid "node-js"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:686
+msgid "notes-medical"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:687
+msgid "npm"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:688
+msgid "ns8"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:689
+msgid "nutritionix"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:690 inc/mega-menu/nav-walker.php:691
+msgid "object-group"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:692 inc/mega-menu/nav-walker.php:693
+msgid "object-ungroup"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:694
+msgid "odnoklassniki"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:695
+msgid "odnoklassniki-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:696
+msgid "opencart"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:697
+msgid "openid"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:698
+msgid "opera"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:699
+msgid "optin-monster"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:700
+msgid "osi"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:701
+msgid "outdent"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:702
+msgid "page4"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:703
+msgid "pagelines"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:704
+msgid "paint-brush"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:705
+msgid "palfed"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:706
+msgid "pallet"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:707 inc/mega-menu/nav-walker.php:708
+msgid "paper-plane"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:709
+msgid "paperclip"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:710
+msgid "parachute-box"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:711
+msgid "paragraph"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:712
+msgid "paste"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:713
+msgid "patreon"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:714
+msgid "pause"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:715 inc/mega-menu/nav-walker.php:716
+msgid "pause-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:717
+msgid "paw"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:718
+msgid "paypal"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:719
+msgid "pen-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:720
+msgid "pencil-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:721
+msgid "people-carry"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:722
+msgid "percent"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:723
+msgid "periscope"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:724
+msgid "phabricator"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:725
+msgid "phoenix-framework"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:726
+msgid "phone"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:727
+msgid "phone-slash"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:728
+msgid "phone-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:729
+msgid "phone-volume"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:730
+msgid "php"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:731
+msgid "pied-piper"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:732
+msgid "pied-piper-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:733
+msgid "pied-piper-hat"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:734
+msgid "pied-piper-pp"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:735
+msgid "piggy-bank"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:736
+msgid "pills"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:737
+msgid "pinterest"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:738
+msgid "pinterest-p"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:739
+msgid "pinterest-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:740
+msgid "plane"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:741
+msgid "play"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:742 inc/mega-menu/nav-walker.php:743
+msgid "play-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:744
+msgid "playstation"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:745
+msgid "plug"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:746
+msgid "plus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:747
+msgid "plus-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:748 inc/mega-menu/nav-walker.php:749
+msgid "plus-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:750
+msgid "podcast"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:751
+msgid "poo"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:752
+msgid "pound-sign"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:753
+msgid "power-off"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:754
+msgid "prescription-bottle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:755
+msgid "prescription-bottle-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:756
+msgid "print"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:757
+msgid "procedures"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:758
+msgid "product-hunt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:759
+msgid "pushed"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:760
+msgid "puzzle-piece"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:761
+msgid "python"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:762
+msgid "qq"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:763
+msgid "qrcode"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:764
+msgid "question"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:765 inc/mega-menu/nav-walker.php:766
+msgid "question-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:767
+msgid "quidditch"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:768
+msgid "quinscape"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:769
+msgid "quora"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:770
+msgid "quote-left"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:771
+msgid "quote-right"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:772
+msgid "random"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:773
+msgid "ravelry"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:774
+msgid "react"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:775
+msgid "readme"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:776
+msgid "rebel"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:777
+msgid "recycle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:778
+msgid "red-river"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:779
+msgid "reddit"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:780
+msgid "reddit-alien"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:781
+msgid "reddit-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:782
+msgid "redo"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:783
+msgid "redo-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:784 inc/mega-menu/nav-walker.php:785
+msgid "registered"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:786
+msgid "rendact"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:787
+msgid "renren"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:788
+msgid "reply"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:789
+msgid "reply-all"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:790
+msgid "replyd"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:791
+msgid "resolving"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:792
+msgid "retweet"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:793
+msgid "ribbon"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:794
+msgid "road"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:795
+msgid "rocket"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:796
+msgid "rocketchat"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:797
+msgid "rockrms"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:798
+msgid "rss"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:799
+msgid "rss-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:800
+msgid "ruble-sign"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:801
+msgid "rupee-sign"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:802
+msgid "safari"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:803
+msgid "sass"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:804 inc/mega-menu/nav-walker.php:805
+msgid "save"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:806
+msgid "schlix"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:807
+msgid "scribd"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:808
+msgid "search"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:809
+msgid "search-minus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:810
+msgid "search-plus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:811
+msgid "searchengin"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:812
+msgid "seedling"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:813
+msgid "sellcast"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:814
+msgid "sellsy"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:815
+msgid "server"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:816
+msgid "servicestack"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:817
+msgid "share"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:818
+msgid "share-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:819
+msgid "share-alt-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:820 inc/mega-menu/nav-walker.php:821
+msgid "share-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:822
+msgid "shekel-sign"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:823
+msgid "shield-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:824
+msgid "ship"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:825
+msgid "shipping-fast"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:826
+msgid "shirtsinbulk"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:827
+msgid "shopping-bag"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:828
+msgid "shopping-basket"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:829
+msgid "shopping-cart"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:830
+msgid "shower"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:831
+msgid "sign"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:832
+msgid "sign-in-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:833
+msgid "sign-language"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:834
+msgid "sign-out-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:835
+msgid "signal"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:836
+msgid "simplybuilt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:837
+msgid "sistrix"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:838
+msgid "sitemap"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:839
+msgid "skyatlas"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:840
+msgid "skype"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:841
+msgid "slack"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:842
+msgid "slack-hash"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:843
+msgid "sliders-h"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:844
+msgid "slideshare"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:845 inc/mega-menu/nav-walker.php:846
+msgid "smile"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:847
+msgid "smoking"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:848
+msgid "snapchat"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:849
+msgid "snapchat-ghost"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:850
+msgid "snapchat-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:851 inc/mega-menu/nav-walker.php:852
+msgid "snowflake"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:853
+msgid "sort"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:854
+msgid "sort-alpha-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:855
+msgid "sort-alpha-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:856
+msgid "sort-amount-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:857
+msgid "sort-amount-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:858
+msgid "sort-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:859
+msgid "sort-numeric-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:860
+msgid "sort-numeric-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:861
+msgid "sort-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:862
+msgid "soundcloud"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:863
+msgid "space-shuttle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:864
+msgid "speakap"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:865
+msgid "spinner"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:866
+msgid "spotify"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:867 inc/mega-menu/nav-walker.php:868
+msgid "square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:869
+msgid "square-full"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:870
+msgid "stack-exchange"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:871
+msgid "stack-overflow"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:872 inc/mega-menu/nav-walker.php:873
+msgid "star"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:874 inc/mega-menu/nav-walker.php:875
+msgid "star-half"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:876
+msgid "staylinked"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:877
+msgid "steam"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:878
+msgid "steam-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:879
+msgid "steam-symbol"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:880
+msgid "step-backward"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:881
+msgid "step-forward"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:882
+msgid "stethoscope"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:883
+msgid "sticker-mule"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:884 inc/mega-menu/nav-walker.php:885
+msgid "sticky-note"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:886
+msgid "stop"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:887 inc/mega-menu/nav-walker.php:888
+msgid "stop-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:889
+msgid "stopwatch"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:890
+msgid "strava"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:891
+msgid "street-view"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:892
+msgid "strikethrough"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:893
+msgid "stripe"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:894
+msgid "stripe-s"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:895
+msgid "studiovinari"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:896
+msgid "stumbleupon"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:897
+msgid "stumbleupon-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:898
+msgid "subscript"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:899
+msgid "subway"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:900
+msgid "suitcase"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:901 inc/mega-menu/nav-walker.php:902
+msgid "sun"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:903
+msgid "superpowers"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:904
+msgid "superscript"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:905
+msgid "supple"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:906
+msgid "sync"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:907
+msgid "sync-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:908
+msgid "syringe"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:909
+msgid "table"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:910
+msgid "table-tennis"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:911
+msgid "tablet"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:912
+msgid "tablet-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:913
+msgid "tablets"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:914
+msgid "tachometer-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:915
+msgid "tag"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:916
+msgid "tags"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:917
+msgid "tape"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:918
+msgid "tasks"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:919
+msgid "taxi"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:920
+msgid "telegram"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:921
+msgid "telegram-plane"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:922
+msgid "tencent-weibo"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:923
+msgid "terminal"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:924
+msgid "text-height"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:925
+msgid "text-width"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:926
+msgid "th"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:927
+msgid "th-large"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:928
+msgid "th-list"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:929
+msgid "themeisle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:930
+msgid "thermometer"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:931
+msgid "thermometer-empty"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:932
+msgid "thermometer-full"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:933
+msgid "thermometer-half"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:934
+msgid "thermometer-quarter"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:935
+msgid "thermometer-three-quarters"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:936 inc/mega-menu/nav-walker.php:937
+msgid "thumbs-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:938 inc/mega-menu/nav-walker.php:939
+msgid "thumbs-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:940
+msgid "thumbtack"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:941
+msgid "ticket-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:942
+msgid "times"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:943 inc/mega-menu/nav-walker.php:944
+msgid "times-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:945
+msgid "tint"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:946
+msgid "toggle-off"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:947
+msgid "toggle-on"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:948
+msgid "trademark"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:949
+msgid "train"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:950
+msgid "transgender"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:951
+msgid "transgender-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:952
+msgid "trash"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:953 inc/mega-menu/nav-walker.php:954
+msgid "trash-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:955
+msgid "tree"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:956
+msgid "trello"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:957
+msgid "tripadvisor"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:958
+msgid "trophy"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:959
+msgid "truck"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:960
+msgid "truck-loading"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:961
+msgid "truck-moving"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:962
+msgid "tty"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:963
+msgid "tumblr"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:964
+msgid "tumblr-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:965
+msgid "tv"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:966
+msgid "twitch"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:967
+msgid "twitter"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:968
+msgid "twitter-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:969
+msgid "typo3"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:970
+msgid "uber"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:971
+msgid "uikit"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:972
+msgid "umbrella"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:973
+msgid "underline"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:974
+msgid "undo"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:975
+msgid "undo-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:976
+msgid "uniregistry"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:977
+msgid "universal-access"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:978
+msgid "university"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:979
+msgid "unlink"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:980
+msgid "unlock"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:981
+msgid "unlock-alt"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:982
+msgid "untappd"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:983
+msgid "upload"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:984
+msgid "usb"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:985 inc/mega-menu/nav-walker.php:986
+msgid "user"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:987 inc/mega-menu/nav-walker.php:988
+msgid "user-circle"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:989
+msgid "user-md"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:990
+msgid "user-plus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:991
+msgid "user-secret"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:992
+msgid "user-times"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:993
+msgid "users"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:994
+msgid "ussunnah"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:995
+msgid "utensil-spoon"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:996
+msgid "utensils"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:997
+msgid "vaadin"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:998
+msgid "venus"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:999
+msgid "venus-double"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1000
+msgid "venus-mars"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1001
+msgid "viacoin"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1002
+msgid "viadeo"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1003
+msgid "viadeo-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1004
+msgid "vial"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1005
+msgid "vials"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1006
+msgid "viber"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1007
+msgid "video"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1008
+msgid "video-slash"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1009
+msgid "vimeo"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1010
+msgid "vimeo-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1011
+msgid "vimeo-v"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1012
+msgid "vine"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1013
+msgid "vk"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1014
+msgid "vnv"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1015
+msgid "volleyball-ball"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1016
+msgid "volume-down"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1017
+msgid "volume-off"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1018
+msgid "volume-up"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1019
+msgid "vuejs"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1020
+msgid "warehouse"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1021
+msgid "weibo"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1022
+msgid "weight"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1023
+msgid "weixin"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1024
+msgid "whatsapp"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1025
+msgid "whatsapp-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1026
+msgid "wheelchair"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1027
+msgid "whmcs"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1028
+msgid "wifi"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1029
+msgid "wikipedia-w"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1030 inc/mega-menu/nav-walker.php:1031
+msgid "window-close"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1032 inc/mega-menu/nav-walker.php:1033
+msgid "window-maximize"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1034 inc/mega-menu/nav-walker.php:1035
+msgid "window-minimize"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1036 inc/mega-menu/nav-walker.php:1037
+msgid "window-restore"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1038
+msgid "windows"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1039
+msgid "wine-glass"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1040
+msgid "won-sign"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1041
+msgid "wordpress"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1042
+msgid "wordpress-simple"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1043
+msgid "wpbeginner"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1044
+msgid "wpexplorer"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1045
+msgid "wpforms"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1046
+msgid "wrench"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1047
+msgid "x-ray"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1048
+msgid "xbox"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1049
+msgid "xing"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1050
+msgid "xing-square"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1051
+msgid "y-combinator"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1052
+msgid "yahoo"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1053
+msgid "yandex"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1054
+msgid "yandex-international"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1055
+msgid "yelp"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1056
+msgid "yen-sign"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1057
+msgid "yoast"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1058
+msgid "youtube"
+msgstr ""
+
+#: inc/mega-menu/nav-walker.php:1059
+msgid "youtube-square"
+msgstr ""
+
+#: inc/update-checker.php:78
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: inc/update-checker.php:83
+msgid "An unknown error occurred"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:14
+msgid "ViewTube Blog Recent Post Here"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:18
+msgid "ViewTube : Recent Post"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:37
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:140
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:145
+msgid "Grid Style"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:150
+msgid "Title length:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:155
+msgid "No. of Item of posts to show:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ViewTube Element"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/ThemeBing/viewtube-element"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"After install the viewtube WordPress Theme, you must need to install this "
+"\"viewtube Element\" first to get all functions of viewtube WP Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeBing"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/ThemeBing"
+msgstr ""
