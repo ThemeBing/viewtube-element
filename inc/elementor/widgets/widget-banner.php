@@ -199,7 +199,7 @@ class viewtube_Widget_Banner extends Widget_Base {
                       <li class="list-inline-item"><span><?php echo esc_html( $banner['video_resolution'] ); ?></span></li>
                     </ul>
                     <p style="color: <?php echo esc_attr( $settings['text_color']) ?> "><?php echo esc_html($banner['description']); ?></p>
-                    <a class="viewtube-btn mt-50" href="<?php echo esc_url( $banner['button_url'] ); ?>"><?php echo esc_html( $banner['button_text'] ); ?></a>
+                    <a class="viewtube-btn popup-video mt-50" href="<?php echo esc_url( $banner['button_url'] ); ?>"><?php echo esc_html( $banner['button_text'] ); ?></a>
                   </div>
                 </div>
               </div>
