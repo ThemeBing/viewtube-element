@@ -374,6 +374,7 @@
     -ms-flex-positive: 1;
     -webkit-box-flex: 1;
     flex-grow: 1;
+    text-align: center;
 }
 
 .video-meta li a {
@@ -399,12 +400,18 @@
     font-size: 20px;
 }
 
+.video-shere {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
 .social-share ul li a {
-    background: #fff;
+    background: #f1f1f1;
     font-size: 16px;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
     border-radius: 50%;
     text-align: center;
     text-decoration: none;
@@ -734,9 +741,19 @@
 
 @media screen and (max-width: 1230px) {}
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+    .video-meta li {
+        flex-basis: unset;
+        margin-right: 10px;
+    }
+}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .video-shere {
+        float: left;
+        margin-top: 10px;
+    }
+}
 
 
 @media (max-width: 540px) {}
