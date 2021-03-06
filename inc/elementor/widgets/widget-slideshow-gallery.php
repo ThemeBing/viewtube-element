@@ -223,7 +223,7 @@ class viewtube_Widget_Slideshow_Gallery extends Widget_Base {
               wp_reset_postdata(); ?>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 d-none d-md-block">
           <div class="slider-nav-vertical">
             <?php
             $post_block = new \WP_Query( array( 
