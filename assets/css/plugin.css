@@ -787,4 +787,23 @@
         font-size: 20px;
         line-height: 30px;
     }
+
+    .video-meta img {
+        width: 20px;
+    }
+
+    .video-meta li {
+        display: none;
+        font-size: 13px;
+    }
+
+    .video-meta li i {
+        font-size: 13px;
+    }
+
+    .video-meta li:nth-child(1),
+    .video-meta li:nth-child(2),
+    .video-meta li:nth-child(3) {
+        display: block;
+    }
 }
