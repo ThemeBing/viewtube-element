@@ -124,12 +124,8 @@ class viewtube_Widget_Blog extends Widget_Base {
                             echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
                         }?>
                      </span>
-                     |
-                     <span class="pl-10">
-                        <a href="<?php comments_link(); ?>"><?php printf( _nx( '1 Comment', '%1$s Comments', get_comments_number(), 'comments title', 'viewtube' ), number_format_i18n( get_comments_number() ) );?></a>
-                     </span>
                   </div>
-                  <h4><a href="<?php the_permalink() ?>"><?php echo mb_strimwidth( get_the_title(), 0, 27, '..' );?></a></h4>
+                  <h4><a href="<?php the_permalink() ?>"><?php echo mb_strimwidth( get_the_title(), 0, 40, ' ..' );?></a></h4>
                   <p><?php echo wp_trim_words( get_the_content(), 12, '...' );?></p>
                </div>
             </div>

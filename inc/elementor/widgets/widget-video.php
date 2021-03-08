@@ -151,7 +151,7 @@ class viewtube_Widget_Video extends Widget_Base {
       <div class="row justify-content-center <?php if($settings['slide']){echo'video-items';} ?>" data-slick='{"slidesToShow": <?php echo esc_attr( $settings['slidestoshow'] ) ?>, "slidesToScroll": <?php echo esc_attr( $settings['slidestoscroll'] ) ?>}'>
          <?php
 
-         $video = new \WP_Query( array( 
+         $video = new \WP_Query( array(
             'post_type' => 'video',
             'posts_per_page' => $settings['ppp']['size'],
             'ignore_sticky_posts' => true,
@@ -165,8 +165,8 @@ class viewtube_Widget_Video extends Widget_Base {
             )
          ));
          /* Start the Loop */
-         while ( $video->have_posts() ) : $video->the_post();
-         ?>
+         while ( $video->have_posts() ) : $video->the_post(); ?>
+
          <!-- video -->
          <div class="<?php echo esc_attr($settings['columns']) ?> col-md-6">
             <div class="video-item-card">
@@ -184,19 +184,20 @@ class viewtube_Widget_Video extends Widget_Base {
                         <a href="<?php the_permalink() ?>">
                            <h5><?php echo mb_strimwidth( get_the_title(), 0, 60, '..' );?></h5>
                         </a>
-                        <a class="author" href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>">
-                           <?php the_author(); ?>
-                        </a>
-                        <?php $categories = get_the_category();
-                        if ( ! empty( $categories ) ) {
-                            echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
-                        }?>
-
-                        <div class="d-flex video-meta-bottom">     
-                           <?php echo esc_html(viewtube_get_post_views(get_the_ID())); ?>
-                           <i class="fas fa-circle ml-2 mr-2"></i>
-                           <?php echo esc_html( human_time_diff( get_the_time('U'), current_time('timestamp') ) ) . ' ago'; ?>
-                        </div>
+                        <ul class="list-inline">
+                           <li class="list-inline-item">
+                              <a class="author" href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>">
+                                 <?php the_author(); ?>
+                              </a>
+                           </li>
+                           <li class="list-inline-item">
+                              <div class="d-flex video-meta-bottom">     
+                                 <?php echo esc_html(viewtube_get_post_views(get_the_ID())); ?>
+                                 <i class="fas fa-circle ml-2 mr-2"></i>
+                                 <?php echo esc_html( human_time_diff( get_the_time('U'), current_time('timestamp') ) ) . ' ago'; ?>
+                              </div>
+                           </li>
+                        </ul>                        
                      </div>
                   </div>
                </div>
