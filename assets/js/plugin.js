@@ -20,6 +20,23 @@
             return false;
         }
     }
+
+    // Banners
+    $('.banners').slick({
+        arrows: false,
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+        speed: 2000,
+        fade: true,
+        rtl: rtl_slick(),
+        "slidesToShow": 1,
+        "slidesToScroll": 1,
+        nextArrow: '<i class="fas fa-chevron-right"></i>',
+        prevArrow: '<i class="fas fa-chevron-left"></i>'
+    });
     
 
     // product items
@@ -99,6 +116,7 @@
             }
         ]
     });
+
     $('.slider-for-vertical').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -109,6 +127,7 @@
         nextArrow: '<i class="fas fa-chevron-right"></i>',
         prevArrow: '<i class="fas fa-chevron-left"></i>'
     });
+
     $('.slider-nav-vertical').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
@@ -167,7 +186,8 @@
         elementorFrontend.hooks.addAction('frontend/element_ready/banner.default', function($scope, $) {
 
             $scope.find('.banners').not('.slick-initialized').slick({
-                arrows: true,
+                arrows: false,
+                dots: true,
                 infinite: true,
                 "slidesToShow": 1,
                 "slidesToScroll": 1,
