@@ -39,8 +39,8 @@ class viewtube_Widget_Video extends Widget_Base {
             'options' => [
                'col-xl-12'  => __( 'Column 1', 'viewtube' ),
                'col-xl-6' => __( 'Column 2', 'viewtube' ),
-               'col-xl-4 col-md-6' => __( 'Column 3', 'viewtube' ),
-               'col-xl-3 col-lg-4 col-md-6' => __( 'Column 4', 'viewtube' ),
+               'col-xl-4' => __( 'Column 3', 'viewtube' ),
+               'col-xl-3 col-lg-4' => __( 'Column 4', 'viewtube' ),
                'col-xl-2' => __( 'Column 6', 'viewtube' ),
                'col-xl-1' => __( 'Column 12', 'viewtube' ),
             ],
@@ -182,7 +182,7 @@ class viewtube_Widget_Video extends Widget_Base {
                      </a>
                      <div>
                         <a href="<?php the_permalink() ?>">
-                           <h5><?php echo mb_strimwidth( get_the_title(), 0, 60, '..' );?></h5>
+                           <h5><?php echo mb_strimwidth( get_the_title(), 0, 50, '..' );?></h5>
                         </a>
                         <ul class="list-inline">
                            <li class="list-inline-item">

@@ -171,6 +171,20 @@
     border-right: 0;
 }
 
+.banners .slick-dots {
+    bottom: 30px;
+}
+
+.banners .slick-dots li {
+    margin: 0 10px;
+}
+
+.banners .slick-dots li button {
+    background: #fff;
+    width: 25px;
+    height: 10px;
+}
+
 /*--------------------------------------------------------------
 ## InfoBox
 --------------------------------------------------------------*/
@@ -351,7 +365,7 @@
 .video-item-card .author {
     font-weight: 500;
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 13px;
     color: #212121;
 }
 

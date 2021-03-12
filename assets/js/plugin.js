@@ -46,7 +46,8 @@
 
     // product items
     $('.banners').slick({
-        arrows: true,
+        arrows: false,
+        dots: true,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2000,
