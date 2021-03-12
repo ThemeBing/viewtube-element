@@ -182,7 +182,7 @@ class viewtube_Widget_Video extends Widget_Base {
                      </a>
                      <div>
                         <a href="<?php the_permalink() ?>">
-                           <h5><?php echo mb_strimwidth( get_the_title(), 0, 50, '..' );?></h5>
+                           <h5><?php echo mb_strimwidth( get_the_title(), 0, 45, '..' );?></h5>
                         </a>
                         <ul class="list-inline">
                            <li class="list-inline-item">

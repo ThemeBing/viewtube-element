@@ -769,9 +769,11 @@
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
-@media (max-width: 1200px) {}
-
-@media screen and (max-width: 1230px) {}
+@media (min-width: 1200px) and (max-width: 1490px) {
+    .video-item-card ul {
+        display: none;
+    }
+}
 
 @media (max-width: 991px) {
     .video-meta li {
@@ -786,7 +788,6 @@
         margin-top: 10px;
     }
 }
-
 
 @media (max-width: 540px) {
     .banner {
