@@ -773,7 +773,7 @@
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
-@media (min-width: 1200px) and (max-width: 1490px) {
+@media (min-width: 1020px) and (max-width: 1490px) {
     .video-item-card ul {
         display: none;
     }
