@@ -125,7 +125,7 @@ class viewtube_Widget_Blog extends Widget_Base {
                         }?>
                      </span>
                   </div>
-                  <h4><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
+                  <h4><a href="<?php the_permalink() ?>"><?php echo mb_strimwidth( get_the_title(), 0, 55, '..' ); ?></a></h4>
                   <p><?php echo wp_trim_words( get_the_content(), 12, '...' );?></p>
                </div>
             </div>
